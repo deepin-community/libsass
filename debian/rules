@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+include /usr/share/dpkg/pkg-info.mk
+
+export LIBSASS_VERSION = $(DEB_VERSION_UPSTREAM)
+
+# Let d-shlibs calculate development package dependencies
+#  and handle shared library install
+execute_after_dh_install:
+	d-shlibmove --commit \
+		--devunversioned \
+		--exclude-la \
+		--multiarch \
+		--movedev "debian/tmp/usr/include/*" usr/include/ \
+		--movedev "debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/*" \
+			usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig \
+		debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/$(DEB_SOURCE).so
+
+%:
+	dh $@ --with pkgkde_symbolshelper

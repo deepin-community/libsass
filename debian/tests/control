@@ -1,0 +1,6 @@
+Tests: spec
+Depends:
+ ruby:native,
+ sass-spec,
+ sass-spec-data,
+ sassc,

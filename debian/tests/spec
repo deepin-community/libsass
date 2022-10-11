@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -e
+
+ruby /usr/lib/ruby/vendor_ruby/sass_spec.rb -V 3.4 -c sassc --impl libsass --verbose /usr/share/sass

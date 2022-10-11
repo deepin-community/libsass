@@ -1,0 +1,53 @@
+Source: libsass
+Maintainer: Debian Sass team <pkg-sass-devel@lists.alioth.debian.org>
+Uploaders:
+ Jonas Smedegaard <dr@jones.dk>,
+ Anthony Fok <foka@debian.org>,
+Section: libs
+Priority: optional
+Build-Depends:
+ autoconf-archive,
+ d-shlibs (>= 0.50),
+ debhelper-compat (= 13),
+ pkg-kde-tools,
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/sass-team/libsass
+Vcs-Git: https://salsa.debian.org/sass-team/libsass.git
+Homepage: https://sass-lang.com/libsass
+Rules-Requires-Root: no
+
+Package: libsass1
+Architecture: any
+Multi-Arch: same
+Section: libs
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Pre-Depends:
+ ${misc:Pre-Depends},
+Description: C/C++ port of the Sass CSS precompiler
+ Sass is a pre-processing language for CSS.
+ It allows you to write cleaner stylesheets
+ and makes collaboration on your CSS a breeze.
+ .
+ LibSass is a C/C++ port of the Sass engine.
+ The point is to be simple, fast, and easy to integrate.
+
+Package: libsass-dev
+Architecture: any
+Multi-Arch: same
+Section: libdevel
+Depends:
+ libsass1 (= ${binary:Version}),
+ ${devlibs:Depends},
+ ${misc:Depends},
+Description: C/C++ port of the Sass CSS precompiler - development headers
+ Sass is a pre-processing language for CSS.
+ It allows you to write cleaner stylesheets
+ and makes collaboration on your CSS a breeze.
+ .
+ LibSass is a C/C++ port of the Sass engine.
+ The point is to be simple, fast, and easy to integrate.
+ .
+ This package provides header files
+ for developing your applications to use libsass template engine.

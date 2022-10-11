@@ -1,0 +1,390 @@
+libsass (3.6.5+20210718-1) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Sass team <pkg-sass-devel@lists.alioth.debian.org>  Mon, 06 Jun 2022 05:13:12 -0400
+
+libsass (3.6.5+20210718-1) unstable; urgency=medium
+
+  * declare compliance with Debian Policy 4.6.0
+  * update symbols file
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 08 Sep 2021 18:02:22 +0200
+
+libsass (3.6.5-1) experimental; urgency=medium
+
+  [ upstream ]
+  * new release, with only bugfixes compared to previous snapshot:
+    + Fix seed generator if std::random_device fails (#3151)
+    + Fix obvious backporting error in pseudo extend
+    + Fix obvious identical subexpressions in `op_color_number`
+    + Fix extend edge case going endlessly
+
+  [ Jonas Smedegaard ]
+    + update watch file: bump base version
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 02 Jun 2021 10:20:18 +0200
+
+libsass (3.6.4+20210501-1) unstable; urgency=medium
+
+  [ upstream ]
+  * development snapshot
+    notable changes:
+    + fix parse URLs containing exclamation marks
+
+ -- Jonas Smedegaard <dr@jones.dk>  Thu, 06 May 2021 10:24:49 +0200
+
+libsass (3.6.4+20201122-1) unstable; urgency=medium
+
+  [ upstream ]
+  * development snapshot
+    notable changes:
+    + fix issue with some std::unordered_map implementations
+    + fix how we count unicode characters
+    + revert compound re-ordering for non extended selectors
+    + fix error of working with the pointer
+
+  [ Jonas Smedegaard ]
+  * update watch file to track git commits
+    (not releases: development has stagnated)
+  * update git-buildpackage settings:
+    + use DEP-14 git branch names
+    + add usage comment
+  * update symbols file
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 09 Jan 2021 18:53:27 +0100
+
+libsass (3.6.4-4) unstable; urgency=medium
+
+  * track library symbols with pkgkde_symbolshelper
+  * update symbols file,
+    and manually demangle some entries with c++filt
+    to avoid misdection as removals when built with C++ 10
+  * declare compliance with Debian Policy 4.5.1
+  * use debhelper compatibility level 13 (not 12)
+  * copyright: update coverage
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 08 Jan 2021 13:03:47 +0100
+
+libsass (3.6.4-3) unstable; urgency=medium
+
+  * have autopkgtest depend on ruby:native (not ruby);
+    closes: bug#955521,
+    thanks to Steve Langasek and Gianfranco Costamagna
+
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 09 Jun 2020 13:54:10 +0200
+
+libsass (3.6.4-2) unstable; urgency=medium
+
+  * simplifiy build;
+    use debhelper compatibility level 12 (not 9);
+    build-depend on debhelper-compat
+    (not autoconf automake cdbs debhelper dh-autoreconf libtool)
+  * set Rules-Requires-Root: no
+  * watch: shorten regex; rewrite usage comment
+  * copyright: fix update coverage
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 08 Jun 2020 22:25:22 +0200
+
+libsass (3.6.4-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release.
+
+  [ Anthony Fok ]
+  * Apply cme dpkg suggested fixes:
+    - Organize debian/control fields;
+    - Remove "Suggests: libsass-doc" which has never been packaged for Debian.
+    - [Not applied]: Bump debhelper compatibility level to 13:
+       * Cannot yet use debhelper-compat due to CDBS bug #946677;
+       * Cannot yet use debhelper >= 11 due to CDBS bug #885407.
+
+ -- Anthony Fok <foka@debian.org>  Sat, 09 May 2020 03:07:13 -0600
+
+libsass (3.6.3-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release(s).
+
+  [ Anthony Fok ]
+  * Declare compliance with Debian Policy 4.5.0.
+
+ -- Anthony Fok <foka@debian.org>  Fri, 28 Feb 2020 04:04:53 -0700
+
+libsass (3.6.1-1) experimental; urgency=medium
+
+  [ upstream ]
+  * New release(s).
+
+  [ Jonas Smedegaard ]
+  * Drop patches cherry-picked upstream: Now applied.
+  * Update copyright info: Extend copyright for fork of UTF8-CPP.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 05 Jul 2019 10:11:26 -0300
+
+libsass (3.5.5-4) unstable; urgency=high
+
+  * Add patches cherry-picked upstream
+    to fix buffer-overflow and null pointer dereference.
+    CVE-2018-19839 CVE-2018-20190.
+  * Set urgency=high due to security bugfixes.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 22 May 2019 12:35:53 +0200
+
+libsass (3.5.5-3) unstable; urgency=high
+
+  * Add patches cherry-picked upstream
+    to fix heap-buffer-overflow and heap-use-after-free security bugs.
+    Thanks to Xavier Guimard. Closes: Bug#900182.
+    CVE-2018-11499 CVE-2018-19827 CVE-2019-6283 CVE-2019-6284 CVE-2019-6286.
+  * Set urgency=high due to security bugfixes.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 21 May 2019 13:32:29 +0200
+
+libsass (3.5.5-2) unstable; urgency=medium
+
+  * Simplify rules: Use dh-autoreconf (not CDBS trickery).
+  * Stop build-depend on dh-buildinfo.
+  * Use https protocol in Homepage URL.
+  * Declare compliance with Debian Policy 4.3.0.
+  * Wrap and sort control file.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 25 Dec 2018 02:50:54 +0100
+
+libsass (3.5.5-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release(s).
+    + Fix -Wmissing-declarations for gcc < 7.
+    + Support hex colors with alpha channels.
+    + Fix possible bug with handling empty reference combinators.
+    + Update plugin test script to use precision 5
+
+  [ Anthony Fok ]
+  * Declare compliance with Debian Policy 4.2.1.
+
+ -- Anthony Fok <foka@debian.org>  Mon, 19 Nov 2018 04:16:53 -0700
+
+libsass (3.5.4+20180621~c0a6cf3-1) unstable; urgency=medium
+
+  [ upstream ]
+  * Snapshot of stable git branch.
+    + Add deprecation messages for color arithmetic
+    + Revert "Remove raw css imports"
+    + Revert "Add configuration for supporting additional extensions as
+      .scss"
+    + Revert "Add a deprecation warning for @import's that resolved .css
+      files"
+    + Revert "Separate out deprecated import file extensions"
+    + Remove legacy workaround for parsing modulo operator
+    + Fix handling of unclosed interpolant in url
+  Closes: Bug#904209. Thanks to Jan Matějka.
+
+  [ Jonas Smedegaard ]
+  * Update watch file:
+    + Use substitution strings.
+    + Fix typo in watch file usage comment.
+  * Declare compliance with Debian Policy 4.1.5.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 23 Jul 2018 09:42:43 +0800
+
+libsass (3.5.4-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release(s).
+
+  [ Anthony Fok ]
+  * Apply "cme fix dpkg" fixes to debian/control,
+    adding version to debhelper build-dependency,
+    bumping Standards-Version to 4.1.4, etc.
+  * Add myself to the list of Uploaders.
+  * Point Vcs-* URLs to salsa.debian.org.
+  * Rename libsass0 to libsass1 as per upstream (abi = 1).
+  * Enable parallel build.
+  * Update copyright info: Adjust for relocated files.
+  * Drop libsass0-dbg package, and switch to automatically created
+    libsass1-dbgsym package.
+  * Remove hardcoded Pre-Depends on multiarch-support.
+    Thanks to Aurelien Jarno for the patch!  (Closes: #870512)
+
+ -- Anthony Fok <foka@debian.org>  Sat, 30 Jun 2018 11:13:39 -0600
+
+libsass (3.4.8-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release(s).
+
+  [ Jonas Smedegaard ]
+  * Update watch file: Skip beta releases.
+  * Use package section optional (not extra).
+  * Declare compliance with Debian Policy 4.1.3.
+  * Update copyright info:
+    + Drop needless copyright signs.
+    + Extend coverage for myself.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 12 Jan 2018 10:04:53 +0100
+
+libsass (3.4.6-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release(s).
+
+  [ Jonas Smedegaard ]
+  * Tighten lintian overrides regarding License-Reference.
+  * Update watch file: Use substitution strings.
+  * Simplify rules:
+    + Stop auto-adapt control file based on SONAME.
+    + Stop resolve build-dependencies in rules file.
+  * Declare compliance with Debian Policy 4.1.1.
+  * Relax to build-depend unversioned on cdbs.
+  * Update copyright info: Use https protocol in file format URL.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 28 Oct 2017 20:08:32 +0200
+
+libsass (3.4.3-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release(s).
+
+  [ Jonas Smedegaard ]
+  * Modernize Vcs-Browse field: Use git subdir.
+  * Stop override lintian for
+    package-needs-versioned-debhelper-build-depends: Fixed in lintian.
+  * Update copyright info: Extend coverage of Debian packaging.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 21 Jan 2017 20:12:01 +0100
+
+libsass (3.4.0-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release(s).
+
+  [ Jonas Smedegaard ]
+  * Update homepage URL.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 11 Dec 2016 11:32:01 +0100
+
+libsass (3.3.6-2) unstable; urgency=medium
+
+  * Add autopkgtest.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 09 Sep 2016 11:28:10 +0200
+
+libsass (3.3.6-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release(s).
+
+  [ Jonas Smedegaard ]
+  * Fix avoid call uupdate in watch file (counterproductive with
+    git-buildpackage).
+  * Update watch file:
+    + Use substitution string @PACKAGE@.
+    + Add usage comment.
+  * Modernize git-buildpackage config: Filter any .git* file.
+  * Declare compliance with Debian Policy 3.9.8.
+  * Update TODO: Testsuite never disabled.
+  * Build-depend on licensecheck (not devscripts).
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 09 Sep 2016 03:12:39 +0200
+
+libsass (3.3.4-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release.
+    Closes: Bug#818896. Thanks to Frederic Bonnard.
+
+  [ Jonas Smedegaard ]
+  * Drop CDBS get-orig-source target: Use "gbp import-orig --uscan"
+    instead.
+  * Update watch file:
+    + Bump file format to version 4.
+    + Use github pattern from ducmentation.
+  * Update copyright info:
+    + Use License-Grant for GPL with exception.
+    + Drop unneeded disclaimers.
+    + Use license shortname FSFUL~Boost.
+    + Change main copyright holder.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 21 Mar 2016 22:09:20 +0100
+
+libsass (3.3.3-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New upstream release.
+    Thanks to Raphaël (see bug#694733).
+
+  [ Jonas Smedegaard ]
+  * Declare compliance with Debian Policy 3.9.7.
+  * Modernize Vcs-Git field: Use https protocol.
+  * Update copyright info:
+    + Extend copyright for main upstream author to cover recent years.
+    + Extend copyright of packaging to cover current year.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 08 Mar 2016 01:18:47 +0100
+
+libsass (3.3.2-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New upstream release(s).
+
+  [ Jonas Smedegaard ]
+  * Update copyright info:
+    + Fix typo in License shortname.
+    + Cover newly added files.
+  * Drop patch 1001: No longer applies.
+  * Tidy lintian overrides.
+  * Add lintian override regarding debhelper 9.
+  * Copy unusually named Makefile.am to help CDBS notice it.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 30 Nov 2015 20:26:27 +0100
+
+libsass (3.2.5-2) unstable; urgency=medium
+
+  * Fix Vcs-* URLs.
+  * Modernize git-buildpackage config: Avoid git- prefix.
+  * Add patch 1001 to include header file sass_interface.h.
+  * Update copyright info: Fix use License-Reference field (not
+    pseudo-field within License field).
+  * Git-ignore quilt .pc dir.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 30 Nov 2015 19:21:42 +0100
+
+libsass (3.2.5-1) unstable; urgency=medium
+
+  * Update copyright info:
+    + Fix use SPDX license shortname BSL.
+    + Use License-Grant and License-Reference fields.
+      Thanks to Ben Finney.
+    + Fix reference GPL2 license (as pseudo-field: Yet another
+      limitation of format 1.0).
+  * Add lintian overrides regarding license in License-Reference field.
+    See bug#786450.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 20 Jun 2015 13:09:53 -0500
+
+libsass (3.2.4-2) unstable; urgency=medium
+
+  * Bump debhelper compatibility level to 9.
+  * Fix set upstream version.
+  * Modernize git-buildpackage config: Drop "git-" prefix.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 13 May 2015 23:37:57 +0200
+
+libsass (3.2.4-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New upstream release(s).
+
+  [ Jonas Smedegaard ]
+  * Update Vcs-Browser URL to use cgit web frontend.
+  * Update copyright info: Drop unused GAP license section.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 13 May 2015 23:04:33 +0200
+
+libsass (3.1.0-1) unstable; urgency=low
+
+  * Initial release.
+    Closes: bug#694730.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 03 Mar 2015 03:56:22 +0100

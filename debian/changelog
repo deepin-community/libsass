@@ -1,3 +1,9 @@
+libsass (3.6.5+20210718-1deepin1) unstable; urgency=medium
+
+  * Update symbols for RISC-V GCC 12
+
+ -- Clansty <i@gao4.pw>  Sat, 04 Feb 2023 13:07:00 +0800
+
 libsass (3.6.5+20210718-1) UNRELEASED; urgency=medium
 
   * update

@@ -2,7 +2,17 @@
 
 include /usr/share/dpkg/pkg-info.mk
 
+# resolve if release is experimental
+EXP_RELEASE = $(filter experimental% UNRELEASED,\
+ $(shell dpkg-parsechangelog -S Distribution))
+
 export LIBSASS_VERSION = $(DEB_VERSION_UPSTREAM)
+
+# relax symbols check when targeting experimental
+export DPKG_GENSYMBOLS_CHECK_LEVEL=$(if $(EXP_RELEASE),0,1)
+
+%:
+	dh $@
 
 # Let d-shlibs calculate development package dependencies
 #  and handle shared library install
@@ -14,7 +24,4 @@ execute_after_dh_install:
 		--movedev "debian/tmp/usr/include/*" usr/include/ \
 		--movedev "debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/*" \
 			usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig \
-		debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/$(DEB_SOURCE).so
-
-%:
-	dh $@ --with pkgkde_symbolshelper
+		debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.so

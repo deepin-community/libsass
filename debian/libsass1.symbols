@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 3.6.5 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
+# SymbolsHelper-Confirmed: 3.6.5+20220909 alpha amd64 arm64 armel armhf hppa i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
 libsass.so.1 libsass1 #MINVER#
  _Z10json_checkPK8JsonNodePc@Base 3.5.5-4~
  _Z11json_decodePKc@Base 3.5.5-4~
@@ -558,8 +558,6 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass12File_ContextD2Ev@Base 3.5.5-4~
  _ZN4Sass12OutputBufferC1ERKS0_@Base 3.6.4-4~
  _ZN4Sass12OutputBufferC2ERKS0_@Base 3.6.4-4~
- _ZN4Sass12OutputBufferD1Ev@Base 3.5.5-4~
- _ZN4Sass12OutputBufferD2Ev@Base 3.5.5-4~
  _ZN4Sass12SelectorList13cloneChildrenEv@Base 3.6.4-2~
  _ZN4Sass12SelectorList19resolve_parent_refsESt6vectorINS_10SharedImplIS0_EESaIS3_EERS1_INS_9BacktraceESaIS6_EEb@Base 3.6.4-2~
  _ZN4Sass12SelectorList7performEPNS_9OperationINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE@Base 3.6.4-2~
@@ -752,7 +750,6 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass13color_to_nameERKNS_10Color_RGBAE@Base 3.6.4
  _ZN4Sass13color_to_nameEd@Base 3.5.5-4~
  _ZN4Sass13color_to_nameEi@Base 3.5.5-4~
- _ZN4Sass13compatibilityEPKc@Base 3.6.4-4~
  _ZN4Sass13convert_unitsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_RiS8_@Base 3.5.5-4~
  _ZN4Sass13escape_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 3.5.5-4~
  _ZN4Sass13get_main_unitENS_9UnitClassE@Base 3.5.5-4~
@@ -931,63 +928,6 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_10ExpressionENS_7ListizeEEclEPNS_9ParameterE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_10ExpressionENS_7ListizeEEclEPNS_9StyleRuleE@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_10ExpressionENS_7ListizeEEclEPNS_9WhileRuleE@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_10AssignmentEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_10AtRootRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_10DefinitionEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_10ExtendRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_10IDSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_10Mixin_CallEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_10ParametersEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_11DeclarationEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_11Import_StubEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_11Media_QueryEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_11WarningRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_12CssMediaRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_12SupportsRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_12TypeSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_13At_Root_QueryEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_13ClassSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_13CssMediaQueryEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_13Function_CallEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_13Keyframe_RuleEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_13String_SchemaEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_14PseudoSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_15ComplexSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_15Selector_SchemaEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_16CompoundSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_16Parent_ReferenceEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_16SupportsNegationEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_16Unary_ExpressionEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_17AttributeSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_17SelectorComponentEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_17SupportsConditionEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_17SupportsOperationEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_18SelectorCombinatorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_19PlaceholderSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_19SupportsDeclarationEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_22Media_Query_ExpressionEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_22Supports_InterpolationEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_2IfEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_5BlockEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_5ColorEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_5TraceEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_6AtRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_6BubbleEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_6ImportEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_6ReturnEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_7CommentEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_7ContentEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_7ForRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_8AST_NodeEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_8EachRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_8VariableEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_9ArgumentsEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_9DebugRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_9ErrorRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_9MediaRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_9ParameterEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_9StyleRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEE8fallbackIPNS_9WhileRuleEEES2_T_@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEEclEPNS_10AssignmentE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEEclEPNS_10AtRootRuleE@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_5ValueENS_8To_ValueEEclEPNS_10DefinitionE@Base 3.5.5-4~
@@ -1176,55 +1116,6 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6CssizeEEclEPNS_9MediaRuleE@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6CssizeEEclEPNS_9ParameterE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6CssizeEEclEPNS_9WhileRuleE@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_10Color_HSLAEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_10Color_RGBAEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_10IDSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_10ParametersEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_11Media_QueryEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_12CssMediaRuleEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_12Custom_ErrorEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_12SelectorListEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_12TypeSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_13At_Root_QueryEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_13ClassSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_13CssMediaQueryEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_13Function_CallEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_13Keyframe_RuleEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_13String_QuotedEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_13String_SchemaEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_14Custom_WarningEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_14PseudoSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_15ComplexSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_15Selector_SchemaEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_15String_ConstantEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_16CompoundSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_16Parent_ReferenceEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_16SupportsNegationEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_16Unary_ExpressionEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_17AttributeSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_17Binary_ExpressionEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_17SelectorComponentEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_17SupportsConditionEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_17SupportsOperationEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_18SelectorCombinatorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_19PlaceholderSelectorEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_19SupportsDeclarationEEES2_T_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_22Media_Query_ExpressionEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_22Supports_InterpolationEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_3MapEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_4ListEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_4NullEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_5ColorEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_5TraceEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_6BubbleEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_6NumberEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_7BooleanEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_8AST_NodeEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_8ArgumentEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_8FunctionEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_8VariableEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_9ArgumentsEEES2_T_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEE8fallbackIPNS_9ParameterEEES2_T_@Base 3.6.4
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEEclEPNS_10Color_HSLAE@Base 3.6.4
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEEclEPNS_10Color_RGBAE@Base 3.6.4
  (optional=templinst)_ZN4Sass14Operation_CRTPIPNS_9StatementENS_6ExpandEEclEPNS_10IDSelectorE@Base 3.6.4-2~
@@ -1341,78 +1232,6 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_19Remove_PlaceholdersEEclEPNS_9MediaRuleE@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_19Remove_PlaceholdersEEclEPNS_9ParameterE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_19Remove_PlaceholdersEEclEPNS_9WhileRuleE@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_10AssignmentEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_10AtRootRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_10Color_HSLAEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_10Color_RGBAEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_10DefinitionEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_10ExtendRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_10IDSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_10Mixin_CallEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_10ParametersEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_11DeclarationEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_11Import_StubEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_11Media_QueryEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_11WarningRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_12CssMediaRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_12Custom_ErrorEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_12SelectorListEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_12SupportsRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_12TypeSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_13At_Root_QueryEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_13ClassSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_13CssMediaQueryEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_13Function_CallEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_13Keyframe_RuleEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_13String_QuotedEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_13String_SchemaEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_14Custom_WarningEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_14PseudoSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_15ComplexSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_15Selector_SchemaEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_15String_ConstantEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_16CompoundSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_16Parent_ReferenceEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_16SupportsNegationEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_16Unary_ExpressionEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_17AttributeSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_17Binary_ExpressionEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_17SelectorComponentEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_17SupportsConditionEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_17SupportsOperationEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_18SelectorCombinatorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_19PlaceholderSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_19SupportsDeclarationEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_22Media_Query_ExpressionEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_22Supports_InterpolationEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_2IfEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_3MapEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_4ListEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_4NullEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_5BlockEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_5ColorEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_5TraceEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_6AtRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_6BubbleEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_6ImportEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_6NumberEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_6ReturnEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_7BooleanEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_7CommentEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_7ContentEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_7ForRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_8AST_NodeEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_8ArgumentEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_8EachRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_8FunctionEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_8VariableEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_9ArgumentsEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_9DebugRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_9ErrorRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_9MediaRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_9ParameterEEEvT_@Base 3.6.4
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_9StyleRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEE8fallbackIPNS_9WhileRuleEEEvT_@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEEclEPNS_10AssignmentE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEEclEPNS_10AtRootRuleE@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEEclEPNS_10Color_HSLAE@Base 3.6.4
@@ -1485,78 +1304,6 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEEclEPNS_9ParameterE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEEclEPNS_9StyleRuleE@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_7InspectEEclEPNS_9WhileRuleE@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_10AssignmentEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_10AtRootRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_10Color_HSLAEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_10Color_RGBAEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_10DefinitionEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_10ExtendRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_10IDSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_10Mixin_CallEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_10ParametersEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_11DeclarationEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_11Import_StubEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_11Media_QueryEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_11WarningRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_12CssMediaRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_12Custom_ErrorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_12SelectorListEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_12SupportsRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_12TypeSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_13At_Root_QueryEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_13ClassSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_13CssMediaQueryEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_13Function_CallEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_13Keyframe_RuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_13String_QuotedEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_13String_SchemaEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_14Custom_WarningEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_14PseudoSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_15ComplexSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_15Selector_SchemaEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_15String_ConstantEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_16CompoundSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_16Parent_ReferenceEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_16SupportsNegationEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_16Unary_ExpressionEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_17AttributeSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_17Binary_ExpressionEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_17SelectorComponentEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_17SupportsConditionEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_17SupportsOperationEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_18SelectorCombinatorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_19PlaceholderSelectorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_19SupportsDeclarationEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_22Media_Query_ExpressionEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_22Supports_InterpolationEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_2IfEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_3MapEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_4ListEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_4NullEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_5BlockEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_5ColorEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_5TraceEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_6AtRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_6BubbleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_6ImportEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_6NumberEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_6ReturnEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_7BooleanEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_7CommentEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_7ContentEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_7ForRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_8AST_NodeEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_8ArgumentEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_8EachRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_8FunctionEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_8VariableEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_9ArgumentsEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_9DebugRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_9ErrorRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_9MediaRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_9ParameterEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_9StyleRuleEEEvT_@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEE8fallbackIPNS_9WhileRuleEEEvT_@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEEclEPNS_10AssignmentE@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEEclEPNS_10AtRootRuleE@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass14Operation_CRTPIvNS_8ExtenderEEclEPNS_10Color_HSLAE@Base 3.6.4-2~
@@ -1790,7 +1537,6 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass16Parent_ReferenceD0Ev@Base 3.6.4
  _ZN4Sass16Parent_ReferenceD1Ev@Base 3.6.4
  _ZN4Sass16Parent_ReferenceD2Ev@Base 3.6.4
- (optional=templinst|arch=!hurd-i386 !i386 !m68k)_ZN4Sass16PtrObjEqualityFnINS_6StringEEEbPKT_S4_@Base 3.6.4-4~
  _ZN4Sass16SupportsNegation7performEPNS_9OperationINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE@Base 3.6.4-2~
  _ZN4Sass16SupportsNegation7performEPNS_9OperationIP10Sass_ValueEE@Base 3.6.4-2~
  _ZN4Sass16SupportsNegation7performEPNS_9OperationIPNS_10ExpressionEEE@Base 3.6.4-2~
@@ -1866,7 +1612,7 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass17Binary_ExpressionD0Ev@Base 3.5.5-4~
  _ZN4Sass17Binary_ExpressionD1Ev@Base 3.5.5-4~
  _ZN4Sass17Binary_ExpressionD2Ev@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass17ObjHashEqualityFnINS_10SharedImplINS_10ExpressionEEEEEbRKT_S6_@Base 3.6.5+20210718-1
+ (optional=templinst)_ZN4Sass17ObjHashEqualityFnINS_10SharedImplINS_10ExpressionEEEEEbRKT_S6_@Base 3.6.5+20211111
  _ZN4Sass17SelectorComponent11getCompoundEv@Base 3.6.4-2~
  _ZN4Sass17SelectorComponent13cloneChildrenEv@Base 3.6.4-2~
  _ZN4Sass17SelectorComponent13getCombinatorEv@Base 3.6.4-2~
@@ -2080,16 +1826,14 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass3MapD2Ev@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass3lcsINS_10SharedImplINS_17SelectorComponentEEEEESt6vectorIT_SaIS5_EERKS7_S9_PFbRKS5_SB_RS5_E@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass3lcsISt6vectorINS_10SharedImplINS_17SelectorComponentEEESaIS4_EEEES1_IT_SaIS7_EERKS9_SB_PFbRKS7_SD_RS7_E@Base 3.6.4-2~
- (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_10Color_HSLAEEEPKT_PKNS_8AST_NodeE@Base 3.6.4
  (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_10DefinitionEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass4CastINS_10ExpressionEEEPKT_PKNS_8AST_NodeE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass4CastINS_10ExpressionEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass4CastINS_10Mixin_CallEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
  (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_11DeclarationEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
- (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_12SelectorListEEEPKT_PKNS_8AST_NodeE@Base 3.6.4-2~
  (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_12SelectorListEEEPT_PNS_8AST_NodeE@Base 3.6.4-2~
  (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_13String_QuotedEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
- (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_13String_SchemaEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
+ (optional=templinst)_ZN4Sass4CastINS_13String_SchemaEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
  (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_14PseudoSelectorEEEPT_PNS_8AST_NodeE@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass4CastINS_14SimpleSelectorEEEPKT_PKNS_8AST_NodeE@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass4CastINS_14SimpleSelectorEEEPT_PNS_8AST_NodeE@Base 3.6.4-2~
@@ -2119,12 +1863,10 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZN4Sass4CastINS_5ValueEEEPKT_PKNS_8AST_NodeE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass4CastINS_5ValueEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
  (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_6AtRuleEEEPT_PNS_8AST_NodeE@Base 3.6.4-2~
- (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_6BubbleEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass4CastINS_6NumberEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass4CastINS_6StringEEEPKT_PKNS_8AST_NodeE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass4CastINS_6StringEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass4CastINS_7CommentEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
- (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_7ForRuleEEEPT_PNS_8AST_NodeE@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass4CastINS_8AST_NodeEEEPKT_PKS1_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass4CastINS_8AST_NodeEEEPT_PS1_@Base 3.5.5-4~
  (optional=templinst|arch=!armel !armhf)_ZN4Sass4CastINS_8ArgumentEEEPT_PNS_8AST_NodeE@Base 3.5.5-4~
@@ -2593,7 +2335,6 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZN4Sass6HashedINS_10SharedImplINS_10ExpressionEEES3_NS1_INS_3MapEEEED0Ev@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass6HashedINS_10SharedImplINS_10ExpressionEEES3_NS1_INS_3MapEEEED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass6HashedINS_10SharedImplINS_10ExpressionEEES3_NS1_INS_3MapEEEED2Ev@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass6HashedINS_10SharedImplINS_10ExpressionEEES3_NS1_INS_3MapEEEElsESt4pairIS3_S3_E@Base 3.6.4-4~
  _ZN4Sass6Import4incsEv@Base 3.6.4
  _ZN4Sass6Import4urlsEv@Base 3.6.4
  _ZN4Sass6Import7performEPNS_9OperationINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE@Base 3.5.5-4~
@@ -2625,10 +2366,8 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass6Number9normalizeEv@Base 3.5.5-4~
  _ZN4Sass6NumberC1ENS_10SourceSpanEdNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb@Base 3.6.4-2~
  _ZN4Sass6NumberC1EPKS0_@Base 3.6.4
- _ZN4Sass6NumberC1ERKS0_@Base 3.6.4-4~
  _ZN4Sass6NumberC2ENS_10SourceSpanEdNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb@Base 3.6.4-2~
  _ZN4Sass6NumberC2EPKS0_@Base 3.6.4
- _ZN4Sass6NumberC2ERKS0_@Base 3.6.4-4~
  _ZN4Sass6NumberD0Ev@Base 3.5.5-4~
  _ZN4Sass6NumberD1Ev@Base 3.5.5-4~
  _ZN4Sass6NumberD2Ev@Base 3.5.5-4~
@@ -2765,7 +2504,6 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer10kwd_importEPKcEEEES4_bb@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer10percentageEPKcEEEES4_bb@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer11kwd_at_rootEPKcEEEES4_bb@Base 3.6.4-2~
- (optional=templinst|arch=amd64 arm64 hppa sh4 x32)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer12alternativesIXadL_ZNS2_3hexEPKcEEXadL_ZNS2_4hex0ES5_EEJEEES5_S5_EEEES5_bb@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer12kwd_functionEPKcEEEES4_bb@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer13pseudo_prefixEPKcEEEES4_bb@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer13quoted_stringEPKcEEEES4_bb@Base 3.5.5-4~
@@ -2785,15 +2523,13 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer7exactlyILc58EEEPKcS5_EEEES5_bb@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer7exactlyILc91EEEPKcS5_EEEES5_bb@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer7exactlyIXadL_ZNS_9Constants8ellipsisEEEEEPKcS6_EEEES6_bb@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer7exactlyIXadL_ZNS_9Constants8else_kwdEEEEEPKcS6_EEEES6_bb@Base 3.6.4-4~
+ (optional=templinst|arch=!alpha !armel !armhf !hurd-i386 !i386 !mipsel !powerpc !ppc64 !s390x)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer7exactlyIXadL_ZNS_9Constants8else_kwdEEEEEPKcS6_EEEES6_bb@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer7kwd_andEPKcEEEES4_bb@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer8kwd_nullEPKcEEEES4_bb@Base 3.6.4-2~
- (optional=templinst|arch=amd64 arm64 hppa sh4 x32)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer8sequenceIXadL_ZNS2_10percentageEPKcEEXadL_ZNS2_9lookaheadIXadL_ZNS2_6numberES5_EEEES5_S5_EEJEEES5_S5_EEEES5_bb@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer8sequenceIXadL_ZNS2_12alternativesIXadL_ZNS2_3hexEPKcEEXadL_ZNS2_4hex0ES6_EEJEEES6_S6_EEXadL_ZNS2_6negateIXadL_ZNS2_7exactlyILc45EEES6_S6_EEEES6_S6_EEJEEES6_S6_EEEES6_bb@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer8sequenceIXadL_ZNS2_16static_componentEPKcEEXadL_ZNS2_8one_plusIXadL_ZNS2_17strict_identifierES5_EEEES5_S5_EEJEEES5_S5_EEEES5_bb@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer8sequenceIXadL_ZNS2_7exactlyILc35EEEPKcS6_EEXadL_ZNS2_10identifierES6_EEJEEES6_S6_EEEES6_bb@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer8sequenceIXadL_ZNS2_7kwd_notEPKcEEEES5_S5_EEEES5_bb@Base 3.6.4-2~
- (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer8sequenceIXadL_ZNS2_8sequenceIXadL_ZNS2_10identifierEPKcEEXadL_ZNS2_8optionalIXadL_ZNS2_13block_commentES6_EEEES6_S6_EEJXadL_ZNS2_7exactlyILc40EEES6_S6_EEEEES6_S6_EEEES6_S6_EEEES6_bb@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer8sequenceIXadL_ZNS2_9dimensionEPKcEEXadL_ZNS2_8optionalIXadL_ZNS3_IXadL_ZNS2_7exactlyILc45EEES5_S5_EEXadL_ZNS2_9lookaheadIXadL_ZNS2_12alternativesIXadL_ZNS2_5spaceES5_EEEES5_S5_EEEES5_S5_EEJEEES5_S5_EEEES5_S5_EEJEEES5_S5_EEEES5_bb@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer8variableEPKcEEEES4_bb@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass6Parser3lexIXadL_ZNS_8Prelexer9kwd_falseEPKcEEEES4_bb@Base 3.6.4-2~
@@ -2805,7 +2541,6 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZN4Sass6Parser7lex_cssIXadL_ZNS0_23re_attr_sensitive_closeEPKcEEEES3_v@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass6Parser7lex_cssIXadL_ZNS0_25re_attr_insensitive_closeEPKcEEEES3_v@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass6Parser7lex_cssIXadL_ZNS_8Prelexer12alternativesIXadL_ZNS2_11exact_matchEPKcEEXadL_ZNS2_11class_matchES5_EEJXadL_ZNS2_10dash_matchES5_EEXadL_ZNS2_12prefix_matchES5_EEXadL_ZNS2_12suffix_matchES5_EEXadL_ZNS2_15substring_matchES5_EEEEES5_S5_EEEES5_v@Base 3.6.4-4~
- (optional=templinst|arch=arm64 sh4)_ZN4Sass6Parser7lex_cssIXadL_ZNS_8Prelexer12kwd_optionalEPKcEEEES4_v@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass6Parser7lex_cssIXadL_ZNS_8Prelexer14attribute_nameEPKcEEEES4_v@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass6Parser7lex_cssIXadL_ZNS_8Prelexer16elseif_directiveEPKcEEEES4_v@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass6Parser7lex_cssIXadL_ZNS_8Prelexer18kwd_else_directiveEPKcEEEES4_v@Base 3.6.4-4~
@@ -2855,7 +2590,6 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass6StringC1EPKS0_@Base 3.6.4
  _ZN4Sass6StringC2ENS_10SourceSpanEb@Base 3.6.4-2~
  _ZN4Sass6StringC2EPKS0_@Base 3.6.4
- (optional=templinst)_ZN4Sass6expandISt6vectorINS_10SharedImplINS_15ComplexSelectorEEESaIS4_EEPFS6_RKS4_RKNS2_INS_14PseudoSelectorEEERKNS2_INS_12CssMediaRuleEEEEJSA_SE_EEET_RKSJ_T0_DpT1_@Base 3.6.5+20210718-1
  _ZN4Sass7Boolean7performEPNS_9OperationINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE@Base 3.5.5-4~
  _ZN4Sass7Boolean7performEPNS_9OperationIP10Sass_ValueEE@Base 3.5.5-4~
  _ZN4Sass7Boolean7performEPNS_9OperationIPNS_10ExpressionEEE@Base 3.5.5-4~
@@ -2982,8 +2716,6 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass7ForRuleD2Ev@Base 3.6.4-2~
  _ZN4Sass7IncludeC1ERKS0_@Base 3.5.5-4~
  _ZN4Sass7IncludeC2ERKS0_@Base 3.5.5-4~
- _ZN4Sass7IncludeD1Ev@Base 3.5.5-4~
- _ZN4Sass7IncludeD2Ev@Base 3.5.5-4~
  _ZN4Sass7Inspect8lbracketB5cxx11EPNS_4ListE@Base 3.5.5-4~
  _ZN4Sass7Inspect8rbracketB5cxx11EPNS_4ListE@Base 3.5.5-4~
  _ZN4Sass7InspectC1ERKNS_7EmitterE@Base 3.5.5-4~
@@ -3207,30 +2939,29 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass8Prelexer11unicode_seqEPKc@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_10class_charIXadL_ZNS_9Constants14real_uri_charsEEEEEPKcS5_EEXadL_ZNS0_13uri_characterES5_EEJXadL_ZNS0_8NONASCIIES5_EEXadL_ZNS0_6ESCAPEES5_EEEEES5_S5_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_10class_charIXadL_ZNS_9Constants20selector_list_delimsEEEEEPKcS5_EEEES5_S5_@Base 3.5.5-4~
- (arch=!ia64)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_10class_charIXadL_ZNS_9Constants22selector_lookahead_opsEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_23selector_combinator_opsEEEEES5_S5_EEJXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc40EEES5_S5_EEXadL_ZNS0_15optional_spacesES5_EEJXadL_ZNS0_8optionalIXadL_ZNS0_16re_selector_listES5_EEEES5_S5_EEXadL_ZNS0_15optional_spacesES5_EEXadL_ZNS7_ILc41EEES5_S5_EEEEES5_S5_EEXadL_ZNS1_IXadL_ZNS0_11exact_matchES5_EEXadL_ZNS0_11class_matchES5_EEJXadL_ZNS0_10dash_matchES5_EEXadL_ZNS0_12prefix_matchES5_EEXadL_ZNS0_12suffix_matchES5_EEXadL_ZNS0_15substring_matchES5_EEEEES5_S5_EEXadL_ZNS6_IXadL_ZNS8_IXadL_ZNS0_16namespace_schemaES5_EEEES5_S5_EEXadL_ZNS1_IXadL_ZNS6_IXadL_ZNS7_ILc35EEES5_S5_EEXadL_ZNS0_6negateIXadL_ZNS7_ILc123EEES5_S5_EEEES5_S5_EEJEEES5_S5_EEXadL_ZNS7_ILc46EEES5_S5_EEJXadL_ZNS6_IXadL_ZNS8_IXadL_ZNS0_13pseudo_prefixES5_EEEES5_S5_EEXadL_ZNS9_IXadL_ZNS0_10uri_prefixES5_EEEES5_S5_EEJEEES5_S5_EEEEES5_S5_EEJXadL_ZNS0_8one_plusIXadL_ZNS6_IXadL_ZNS0_9zero_plusIXadL_ZNS6_IXadL_ZNS7_ILc45EEES5_S5_EEXadL_ZNS0_15optional_spacesES5_EEJEEES5_S5_EEEES5_S5_EEXadL_ZNS1_IXadL_ZNS0_12kwd_optionalES5_EEXadL_ZNS7_ILc42EEES5_S5_EEJXadL_ZNS0_13quoted_stringES5_EEXadL_ZNS0_11interpolantES5_EEXadL_ZNS0_10identifierES5_EEXadL_ZNS0_8variableES5_EEXadL_ZNS0_10percentageES5_EEXadL_ZNS0_8binomialES5_EEXadL_ZNS0_9dimensionES5_EEXadL_ZNS0_5alnumES5_EEEEES5_S5_EEJEEES5_S5_EEEES5_S5_EEXadL_ZNSB_IXadL_ZNS7_ILc45EEES5_S5_EEEES5_S5_EEEEES5_S5_EEEEES5_S5_@Base 3.6.4-4~
- (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_10identifierEPKcEEXadL_ZNS0_13quoted_stringES3_EEJXadL_ZNS0_6numberES3_EEXadL_ZNS0_3hexES3_EEXadL_ZNS0_4hexaES3_EEEEES3_S3_@Base 3.6.4-4~
+ _ZN4Sass8Prelexer12alternativesIXadL_ZNS0_10class_charIXadL_ZNS_9Constants22selector_lookahead_opsEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_23selector_combinator_opsEEEEES5_S5_EEJXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc40EEES5_S5_EEXadL_ZNS0_15optional_spacesES5_EEJXadL_ZNS0_8optionalIXadL_ZNS0_16re_selector_listES5_EEEES5_S5_EEXadL_ZNS0_15optional_spacesES5_EEXadL_ZNS7_ILc41EEES5_S5_EEEEES5_S5_EEXadL_ZNS1_IXadL_ZNS0_11exact_matchES5_EEXadL_ZNS0_11class_matchES5_EEJXadL_ZNS0_10dash_matchES5_EEXadL_ZNS0_12prefix_matchES5_EEXadL_ZNS0_12suffix_matchES5_EEXadL_ZNS0_15substring_matchES5_EEEEES5_S5_EEXadL_ZNS6_IXadL_ZNS8_IXadL_ZNS0_16namespace_schemaES5_EEEES5_S5_EEXadL_ZNS1_IXadL_ZNS6_IXadL_ZNS7_ILc35EEES5_S5_EEXadL_ZNS0_6negateIXadL_ZNS7_ILc123EEES5_S5_EEEES5_S5_EEJEEES5_S5_EEXadL_ZNS7_ILc46EEES5_S5_EEJXadL_ZNS6_IXadL_ZNS8_IXadL_ZNS0_13pseudo_prefixES5_EEEES5_S5_EEXadL_ZNS9_IXadL_ZNS0_10uri_prefixES5_EEEES5_S5_EEJEEES5_S5_EEEEES5_S5_EEJXadL_ZNS0_8one_plusIXadL_ZNS6_IXadL_ZNS0_9zero_plusIXadL_ZNS6_IXadL_ZNS7_ILc45EEES5_S5_EEXadL_ZNS0_15optional_spacesES5_EEJEEES5_S5_EEEES5_S5_EEXadL_ZNS1_IXadL_ZNS0_12kwd_optionalES5_EEXadL_ZNS7_ILc42EEES5_S5_EEJXadL_ZNS0_13quoted_stringES5_EEXadL_ZNS0_11interpolantES5_EEXadL_ZNS0_10identifierES5_EEXadL_ZNS0_8variableES5_EEXadL_ZNS0_10percentageES5_EEXadL_ZNS0_8binomialES5_EEXadL_ZNS0_9dimensionES5_EEXadL_ZNS0_5alnumES5_EEEEES5_S5_EEJEEES5_S5_EEEES5_S5_EEXadL_ZNSB_IXadL_ZNS7_ILc45EEES5_S5_EEEES5_S5_EEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20211111
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_10identifierEPKcEEXadL_ZNS0_7exactlyILc42EEES3_S3_EEJXadL_ZNS0_7exactlyIXadL_ZNS_9Constants8warn_kwdEEEEES3_S3_EEXadL_ZNS5_IXadL_ZNS6_9error_kwdEEEEES3_S3_EEXadL_ZNS5_IXadL_ZNS6_9debug_kwdEEEEES3_S3_EEEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_11end_of_fileEPKcEEXadL_ZNS0_7exactlyILc123EEES3_S3_EEJEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_11end_of_fileEPKcEEXadL_ZNS0_7exactlyILc123EEES3_S3_EEJXadL_ZNS4_ILc44EEES3_S3_EEEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_11exact_matchEPKcEEXadL_ZNS0_11class_matchES3_EEJXadL_ZNS0_10dash_matchES3_EEXadL_ZNS0_12prefix_matchES3_EEXadL_ZNS0_12suffix_matchES3_EEXadL_ZNS0_15substring_matchES3_EEEEES3_S3_@Base 3.5.5-4~
- _ZN4Sass8Prelexer12alternativesIXadL_ZNS0_12kwd_optionalEPKcEEXadL_ZNS0_13quoted_stringES3_EEJXadL_ZNS0_11interpolantES3_EEXadL_ZNS0_10identifierES3_EEXadL_ZNS0_10percentageES3_EEXadL_ZNS0_9dimensionES3_EEXadL_ZNS0_8variableES3_EEXadL_ZNS0_5alnumES3_EEXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc92EEES3_S3_EEXadL_ZNS0_8any_charES3_EEJEEES3_S3_EEEEES3_S3_@Base 3.6.5+20210718-1
- (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_13block_commentEPKcEEXadL_ZNS0_8sequenceIXadL_ZNS0_11interpolantES3_EEXadL_ZNS0_8optionalIXadL_ZNS0_13quoted_stringES3_EEEES3_S3_EEJEEES3_S3_EEJXadL_ZNS0_10identifierES3_EEXadL_ZNS0_8variableES3_EEXadL_ZNS4_IXadL_ZNS0_16parenthese_scopeES3_EEXadL_ZNS0_11interpolantES3_EEJXadL_ZNS5_IXadL_ZNS0_13quoted_stringES3_EEEES3_S3_EEEEES3_S3_EEEEES3_S3_@Base 3.6.4-4~
- (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_11interpolantEPKcEEXadL_ZNS0_10identifierES3_EEJXadL_ZNS0_8variableES3_EEXadL_ZNS0_10percentageES3_EEXadL_ZNS0_8binomialES3_EEXadL_ZNS0_9dimensionES3_EEXadL_ZNS0_5alnumES3_EEEEES3_S3_@Base 3.6.4-4~
- (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_11interpolantEPKcEEXadL_ZNS0_5spaceES3_EEJXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc117EEES3_S3_EEXadL_ZNS5_ILc114EEES3_S3_EEJXadL_ZNS5_ILc108EEES3_S3_EEXadL_ZNS5_ILc40EEES3_S3_EEXadL_ZNS0_9zero_plusIXadL_ZNS1_IXadL_ZNS0_10class_charIXadL_ZNS_9Constants14real_uri_charsEEEEES3_S3_EEXadL_ZNS0_13uri_characterES3_EEJXadL_ZNS0_8NONASCIIES3_EEXadL_ZNS0_6ESCAPEES3_EEEEES3_S3_EEEES3_S3_EEXadL_ZNS5_ILc41EEES3_S3_EEEEES3_S3_EEEEES3_S3_@Base 3.6.4-4~
+ (optional=templinst|arch=alpha amd64 arm64 armel armhf hppa i386 ia64 sh4 sparc64 x32)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_11interpolantEPKcEEXadL_ZNS0_5spaceES3_EEJXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc117EEES3_S3_EEXadL_ZNS5_ILc114EEES3_S3_EEJXadL_ZNS5_ILc108EEES3_S3_EEXadL_ZNS5_ILc40EEES3_S3_EEXadL_ZNS0_9zero_plusIXadL_ZNS1_IXadL_ZNS0_10class_charIXadL_ZNS_9Constants14real_uri_charsEEEEES3_S3_EEXadL_ZNS0_13uri_characterES3_EEJXadL_ZNS0_8NONASCIIES3_EEXadL_ZNS0_6ESCAPEES3_EEEEES3_S3_EEEES3_S3_EEXadL_ZNS5_ILc41EEES3_S3_EEEEES3_S3_EEEEES3_S3_@Base 3.6.5+20220909
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_12default_flagEPKcEEXadL_ZNS0_11global_flagES3_EEJEEES3_S3_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_13block_commentEPKcEEXadL_ZNS0_8sequenceIXadL_ZNS0_11interpolantES3_EEXadL_ZNS0_8optionalIXadL_ZNS0_13quoted_stringES3_EEEES3_S3_EEJEEES3_S3_EEJXadL_ZNS0_10identifierES3_EEXadL_ZNS0_8variableES3_EEXadL_ZNS4_IXadL_ZNS0_16parenthese_scopeES3_EEXadL_ZNS0_11interpolantES3_EEJXadL_ZNS5_IXadL_ZNS0_13quoted_stringES3_EEEES3_S3_EEEEES3_S3_EEEEES3_S3_@Base 3.6.4-4~
- (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_13block_commentEPKcEEXadL_ZNS0_8sequenceIXadL_ZNS0_11interpolantES3_EEXadL_ZNS0_8optionalIXadL_ZNS0_13quoted_stringES3_EEEES3_S3_EEJEEES3_S3_EEJXadL_ZNS0_10identifierES3_EEXadL_ZNS0_8variableES3_EEXadL_ZNS4_IXadL_ZNS0_16parenthese_scopeES3_EEXadL_ZNS0_11interpolantES3_EEJXadL_ZNS5_IXadL_ZNS0_13quoted_stringES3_EEEES3_S3_EEEEES3_S3_EEEEES3_S3_@Base 3.6.4-4~
+ (optional=templinst|arch=m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_12kwd_optionalEPKcEEXadL_ZNS0_13quoted_stringES3_EEJXadL_ZNS0_11interpolantES3_EEXadL_ZNS0_10identifierES3_EEXadL_ZNS0_10percentageES3_EEXadL_ZNS0_9dimensionES3_EEXadL_ZNS0_8variableES3_EEXadL_ZNS0_5alnumES3_EEXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc92EEES3_S3_EEXadL_ZNS0_8any_charES3_EEJEEES3_S3_EEEEES3_S3_@Base 3.6.5+20220909
+ (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_13quoted_stringEPKcEEXadL_ZNS0_6numberES3_EEJXadL_ZNS0_3hexES3_EEXadL_ZNS0_4hexaES3_EEEEES3_S3_@Base 3.6.5+20211111
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_17identifier_schemaEPKcEEXadL_ZNS0_10identifierES3_EEJEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_18kwd_with_directiveEPKcEEXadL_ZNS0_21kwd_without_directiveES3_EEJEEES3_S3_@Base 3.5.5-4~
- (arch=ia64)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_27schema_reference_combinatorEPKcEEXadL_ZNS0_10class_charIXadL_ZNS_9Constants22selector_lookahead_opsEEEEES3_S3_EEJXadL_ZNS4_IXadL_ZNS5_23selector_combinator_opsEEEEES3_S3_EEXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc40EEES3_S3_EEXadL_ZNS0_15optional_spacesES3_EEJXadL_ZNS0_8optionalIXadL_ZNS0_16re_selector_listES3_EEEES3_S3_EEXadL_ZNS0_15optional_spacesES3_EEXadL_ZNS7_ILc41EEES3_S3_EEEEES3_S3_EEXadL_ZNS1_IXadL_ZNS0_11exact_matchES3_EEXadL_ZNS0_11class_matchES3_EEJXadL_ZNS0_10dash_matchES3_EEXadL_ZNS0_12prefix_matchES3_EEXadL_ZNS0_12suffix_matchES3_EEXadL_ZNS0_15substring_matchES3_EEEEES3_S3_EEXadL_ZNS6_IXadL_ZNS8_IXadL_ZNS0_16namespace_schemaES3_EEEES3_S3_EEXadL_ZNS1_IXadL_ZNS6_IXadL_ZNS7_ILc35EEES3_S3_EEXadL_ZNS0_6negateIXadL_ZNS7_ILc123EEES3_S3_EEEES3_S3_EEJEEES3_S3_EEXadL_ZNS7_ILc46EEES3_S3_EEJXadL_ZNS6_IXadL_ZNS8_IXadL_ZNS0_13pseudo_prefixES3_EEEES3_S3_EEXadL_ZNS9_IXadL_ZNS0_10uri_prefixES3_EEEES3_S3_EEJEEES3_S3_EEEEES3_S3_EEJXadL_ZNS0_8one_plusIXadL_ZNS6_IXadL_ZNS0_9zero_plusIXadL_ZNS6_IXadL_ZNS7_ILc45EEES3_S3_EEXadL_ZNS0_15optional_spacesES3_EEJEEES3_S3_EEEES3_S3_EEXadL_ZNS1_IXadL_ZNS0_12kwd_optionalES3_EEXadL_ZNS7_ILc42EEES3_S3_EEJXadL_ZNS0_13quoted_stringES3_EEXadL_ZNS0_11interpolantES3_EEXadL_ZNS0_10identifierES3_EEXadL_ZNS0_8variableES3_EEXadL_ZNS0_10percentageES3_EEXadL_ZNS0_8binomialES3_EEXadL_ZNS0_9dimensionES3_EEXadL_ZNS0_5alnumES3_EEEEES3_S3_EEJEEES3_S3_EEEES3_S3_EEXadL_ZNSB_IXadL_ZNS7_ILc45EEES3_S3_EEEES3_S3_EEEEES3_S3_EEEEES3_S3_@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_3hexEPKcEEXadL_ZNS0_4hex0ES3_EEJEEES3_S3_@Base 3.5.5-4~
- (optional=templinst|arch=!ia64)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4hexaEPKcEEXadL_ZNS0_7exactlyILc124EEES3_S3_EEJXadL_ZNS0_8sequenceIXadL_ZNS0_6numberES3_EEXadL_ZNS0_15unit_identifierES3_EEJEEES3_S3_EEXadL_ZNS0_6numberES3_EEXadL_ZNS5_IXadL_ZNS4_ILc33EEES3_S3_EEXadL_ZNS0_4wordIXadL_ZNS_9Constants13important_kwdEEEEES3_S3_EEJEEES3_S3_EEEEES3_S3_@Base 3.6.4-4~
- _ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants10import_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20210718-1
- (optional=templinst|arch=m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants10return_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_9debug_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_8warn_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_7for_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_8each_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9while_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_6if_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_8else_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10extend_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10import_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.4-4~
- (optional=templinst|arch=!ia64)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants6if_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_8else_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_10extend_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10import_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20210718-1
- (optional=templinst|arch=ia64)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants8else_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_10extend_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_10import_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.4-3~
+ (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4hexaEPKcEEXadL_ZNS0_7exactlyILc124EEES3_S3_EEJXadL_ZNS0_8sequenceIXadL_ZNS0_6numberES3_EEXadL_ZNS0_15unit_identifierES3_EEJEEES3_S3_EEXadL_ZNS0_6numberES3_EEXadL_ZNS5_IXadL_ZNS4_ILc33EEES3_S3_EEXadL_ZNS0_4wordIXadL_ZNS_9Constants13important_kwdEEEEES3_S3_EEJEEES3_S3_EEEEES3_S3_@Base 3.6.4-4~
+ (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants10import_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20220909
+ (optional=templinst|arch=m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants10return_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_9debug_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_8warn_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_7for_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_8each_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9while_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_6if_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_8else_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10extend_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10import_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20211111
+ (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants11charset_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20220909
+ (optional=templinst|arch=!m68k !mips64el !mipsel !powerpc !ppc64 !ppc64el !riscv64 !s390x)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants12function_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_10return_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_9debug_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_8warn_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_7for_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_8each_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9while_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_6if_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_8else_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10extend_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10import_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20211111
+ (optional=templinst|arch=alpha amd64 arm64 armel armhf hppa i386 ia64 sh4 sparc64 x32)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants7for_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_8each_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_9while_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_6if_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_8else_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10extend_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10import_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20220909
+ (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants8else_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_10extend_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_10import_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.4-3~
+ (optional=templinst|arch=m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants8warn_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_7for_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_8each_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9while_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_6if_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_8else_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10extend_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10import_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20211111
+ (optional=templinst|arch=!m68k !mips64el !mipsel !powerpc !ppc64 !ppc64el !riscv64 !s390x)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants9debug_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_8warn_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_7for_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_8each_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9while_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_6if_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_8else_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10extend_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10import_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20211111
+ (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_4wordIXadL_ZNS_9Constants9while_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_6if_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_8else_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10extend_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_10import_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9media_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11charset_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11content_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_11at_root_kwdEEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20211111
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_5alphaEPKcEEEES3_S3_@Base 3.5.5-4~
- (optional=templinst|arch=!ia64 !m68k !mips64el !mipsel !powerpc !ppc64 !ppc64el !riscv64 !s390x)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_5spaceEPKcEEXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc117EEES3_S3_EEXadL_ZNS5_ILc114EEES3_S3_EEJXadL_ZNS5_ILc108EEES3_S3_EEXadL_ZNS5_ILc40EEES3_S3_EEXadL_ZNS0_9zero_plusIXadL_ZNS1_IXadL_ZNS0_10class_charIXadL_ZNS_9Constants14real_uri_charsEEEEES3_S3_EEXadL_ZNS0_13uri_characterES3_EEJXadL_ZNS0_8NONASCIIES3_EEXadL_ZNS0_6ESCAPEES3_EEEEES3_S3_EEEES3_S3_EEXadL_ZNS5_ILc41EEES3_S3_EEEEES3_S3_EEJEEES3_S3_@Base 3.6.5+20210718-1
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_6kwd_eqEPKcEEXadL_ZNS0_7kwd_neqES3_EEJXadL_ZNS0_7kwd_gteES3_EEXadL_ZNS0_6kwd_gtES3_EEXadL_ZNS0_7kwd_lteES3_EEXadL_ZNS0_6kwd_ltES3_EEEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_6spacesEPKcEEXadL_ZNS0_13block_commentES3_EEJEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_7exactlyILc37EEEPKcS4_EEXadL_ZNS2_ILc45EEES4_S4_EEJXadL_ZNS2_ILc43EEES4_S4_EEEEES4_S4_@Base 3.5.5-4~
@@ -3239,16 +2970,18 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_7exactlyILc44EEEPKcS4_EEXadL_ZNS2_ILc123EEES4_S4_EEJXadL_ZNS2_ILc59EEES4_S4_EEEEES4_S4_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_7exactlyILc59EEEPKcS4_EEXadL_ZNS0_11end_of_fileES4_EEJEEES4_S4_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_7exactlyILc59EEEPKcS4_EEXadL_ZNS2_ILc125EEES4_S4_EEJXadL_ZNS0_11end_of_fileES4_EEEEES4_S4_@Base 3.5.5-4~
+ (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants8warn_kwdEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_9error_kwdEEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_9debug_kwdEEEEES5_S5_EEEEES5_S5_@Base 3.6.5+20211111
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_8nonasciiEPKcEEXadL_ZNS0_7exactlyILc45EEES3_S3_EEJXadL_ZNS4_ILc95EEES3_S3_EEXadL_ZNS0_8NONASCIIES3_EEXadL_ZNS0_6ESCAPEES3_EEXadL_ZNS0_10escape_seqES3_EEEEES3_S3_@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc35EEEPKcS5_EEXadL_ZNS0_6negateIXadL_ZNS3_ILc123EEES5_S5_EEEES5_S5_EEJEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_ILc47EEES5_S5_EEXadL_ZNS6_IXadL_ZNS3_ILc42EEES5_S5_EEEES5_S5_EEJEEES5_S5_EEJXadL_ZNS0_13static_stringES5_EEXadL_ZNS0_8real_uriES5_EEXadL_ZNS0_13block_commentES5_EEEEES5_S5_@Base 3.5.5-4~
  _ZN4Sass8Prelexer12alternativesIXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc40EEEPKcS5_EEXadL_ZNS0_15optional_spacesES5_EEJXadL_ZNS0_8optionalIXadL_ZNS0_16re_selector_listES5_EEEES5_S5_EEXadL_ZNS0_15optional_spacesES5_EEXadL_ZNS3_ILc41EEES5_S5_EEEEES5_S5_EEXadL_ZNS1_IXadL_ZNS0_11exact_matchES5_EEXadL_ZNS0_11class_matchES5_EEJXadL_ZNS0_10dash_matchES5_EEXadL_ZNS0_12prefix_matchES5_EEXadL_ZNS0_12suffix_matchES5_EEXadL_ZNS0_15substring_matchES5_EEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS6_IXadL_ZNS0_16namespace_schemaES5_EEEES5_S5_EEXadL_ZNS1_IXadL_ZNS2_IXadL_ZNS3_ILc35EEES5_S5_EEXadL_ZNS0_6negateIXadL_ZNS3_ILc123EEES5_S5_EEEES5_S5_EEJEEES5_S5_EEXadL_ZNS3_ILc46EEES5_S5_EEJXadL_ZNS2_IXadL_ZNS6_IXadL_ZNS0_13pseudo_prefixES5_EEEES5_S5_EEXadL_ZNS7_IXadL_ZNS0_10uri_prefixES5_EEEES5_S5_EEJEEES5_S5_EEEEES5_S5_EEJXadL_ZNS0_8one_plusIXadL_ZNS2_IXadL_ZNS0_9zero_plusIXadL_ZNS2_IXadL_ZNS3_ILc45EEES5_S5_EEXadL_ZNS0_15optional_spacesES5_EEJEEES5_S5_EEEES5_S5_EEXadL_ZNS1_IXadL_ZNS0_12kwd_optionalES5_EEXadL_ZNS3_ILc42EEES5_S5_EEJXadL_ZNS0_13quoted_stringES5_EEXadL_ZNS0_11interpolantES5_EEXadL_ZNS0_10identifierES5_EEXadL_ZNS0_8variableES5_EEXadL_ZNS0_10percentageES5_EEXadL_ZNS0_8binomialES5_EEXadL_ZNS0_9dimensionES5_EEXadL_ZNS0_5alnumES5_EEEEES5_S5_EEJEEES5_S5_EEEES5_S5_EEXadL_ZNS9_IXadL_ZNS3_ILc45EEES5_S5_EEEES5_S5_EEEEES5_S5_EEEEES5_S5_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc47EEEPKcS5_EEXadL_ZNS0_6negateIXadL_ZNS1_IXadL_ZNS3_ILc47EEES5_S5_EEXadL_ZNS3_ILc42EEES5_S5_EEJEEES5_S5_EEEES5_S5_EEJEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_ILc92EEES5_S5_EEXadL_ZNS3_ILc35EEES5_S5_EEJXadL_ZNS6_IXadL_ZNS3_ILc123EEES5_S5_EEEES5_S5_EEEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_ILc33EEES5_S5_EEXadL_ZNS6_IXadL_ZNS0_5alphaES5_EEEES5_S5_EEJEEES5_S5_EEEEES5_S5_@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc92EEEPKcS5_EEXadL_ZNS0_8any_charES5_EEJEEES5_S5_EEXadL_ZNS2_IXadL_ZNS0_6negateIXadL_ZNS0_10uri_prefixES5_EEEES5_S5_EEXadL_ZNS0_14neg_class_charIXadL_ZNS_9Constants22almost_any_value_classEEEEES5_S5_EEJEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_ILc47EEES5_S5_EEXadL_ZNS6_IXadL_ZNS1_IXadL_ZNS3_ILc47EEES5_S5_EEXadL_ZNS3_ILc42EEES5_S5_EEJEEES5_S5_EEEES5_S5_EEJEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_ILc92EEES5_S5_EEXadL_ZNS3_ILc35EEES5_S5_EEJXadL_ZNS6_IXadL_ZNS3_ILc123EEES5_S5_EEEES5_S5_EEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_ILc33EEES5_S5_EEXadL_ZNS6_IXadL_ZNS0_5alphaES5_EEEES5_S5_EEJEEES5_S5_EEEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc92EEEPKcS5_EEXadL_ZNS0_8any_charES5_EEJEEES5_S5_EEXadL_ZNS2_IXadL_ZNS0_6negateIXadL_ZNS2_IXadL_ZNS0_7exactlyIXadL_ZNS_9Constants7url_kwdEEEEES5_S5_EEXadL_ZNS3_ILc40EEES5_S5_EEJEEES5_S5_EEEES5_S5_EEXadL_ZNS0_14neg_class_charIXadL_ZNS8_22almost_any_value_classEEEEES5_S5_EEJEEES5_S5_EEJXadL_ZNS2_IXadL_ZNS3_ILc47EEES5_S5_EEXadL_ZNS6_IXadL_ZNS1_IXadL_ZNS3_ILc47EEES5_S5_EEXadL_ZNS3_ILc42EEES5_S5_EEJEEES5_S5_EEEES5_S5_EEJEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_ILc92EEES5_S5_EEXadL_ZNS3_ILc35EEES5_S5_EEJXadL_ZNS6_IXadL_ZNS3_ILc123EEES5_S5_EEEES5_S5_EEEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_ILc33EEES5_S5_EEXadL_ZNS6_IXadL_ZNS0_5alphaES5_EEEES5_S5_EEJEEES5_S5_EEEEES5_S5_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc92EEEPKcS5_EEXadL_ZNS0_8any_charES5_EEJEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_ILc35EEES5_S5_EEXadL_ZNS0_6negateIXadL_ZNS3_ILc123EEES5_S5_EEEES5_S5_EEJEEES5_S5_EEJXadL_ZNS0_14neg_class_charIXadL_ZNS0_21string_double_negatesEEEEES5_S5_EEEEES5_S5_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc92EEEPKcS5_EEXadL_ZNS0_8any_charES5_EEJEEES5_S5_EEXadL_ZNS2_IXadL_ZNS3_ILc35EEES5_S5_EEXadL_ZNS0_6negateIXadL_ZNS3_ILc123EEES5_S5_EEEES5_S5_EEJEEES5_S5_EEJXadL_ZNS0_14neg_class_charIXadL_ZNS0_21string_single_negatesEEEEES5_S5_EEEEES5_S5_@Base 3.5.5-4~
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !i386 !ia64 !sh4 !sparc64 !x32)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_8variableEPKcEEXadL_ZNS0_10percentageES3_EEJXadL_ZNS0_8binomialES3_EEXadL_ZNS0_9dimensionES3_EEXadL_ZNS0_5alnumES3_EEEEES3_S3_@Base 3.6.5+20211111
+ (optional=templinst|arch=m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_8variableEPKcEEXadL_ZNS0_5alnumES3_EEJXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc92EEES3_S3_EEXadL_ZNS0_8any_charES3_EEJEEES3_S3_EEEEES3_S3_@Base 3.6.5+20220909
  (optional=templinst)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_8variableEPKcEEXadL_ZNS0_6numberES3_EEJXadL_ZNS0_27static_reference_combinatorES3_EEEEES3_S3_@Base 3.5.5-4~
- (arch=ia64)_ZN4Sass8Prelexer12alternativesIXadL_ZNS1_IXadL_ZNS0_11exact_matchEPKcEEXadL_ZNS0_11class_matchES3_EEJXadL_ZNS0_10dash_matchES3_EEXadL_ZNS0_12prefix_matchES3_EEXadL_ZNS0_12suffix_matchES3_EEXadL_ZNS0_15substring_matchES3_EEEEES3_S3_EEXadL_ZNS0_8sequenceIXadL_ZNS0_8optionalIXadL_ZNS0_16namespace_schemaES3_EEEES3_S3_EEXadL_ZNS1_IXadL_ZNS4_IXadL_ZNS0_7exactlyILc35EEES3_S3_EEXadL_ZNS0_6negateIXadL_ZNS6_ILc123EEES3_S3_EEEES3_S3_EEJEEES3_S3_EEXadL_ZNS6_ILc46EEES3_S3_EEJXadL_ZNS4_IXadL_ZNS5_IXadL_ZNS0_13pseudo_prefixES3_EEEES3_S3_EEXadL_ZNS7_IXadL_ZNS0_10uri_prefixES3_EEEES3_S3_EEJEEES3_S3_EEEEES3_S3_EEJXadL_ZNS0_8one_plusIXadL_ZNS4_IXadL_ZNS0_9zero_plusIXadL_ZNS4_IXadL_ZNS6_ILc45EEES3_S3_EEXadL_ZNS0_15optional_spacesES3_EEJEEES3_S3_EEEES3_S3_EEXadL_ZNS1_IXadL_ZNS0_12kwd_optionalES3_EEXadL_ZNS6_ILc42EEES3_S3_EEJXadL_ZNS0_13quoted_stringES3_EEXadL_ZNS0_11interpolantES3_EEXadL_ZNS0_10identifierES3_EEXadL_ZNS0_8variableES3_EEXadL_ZNS0_10percentageES3_EEXadL_ZNS0_8binomialES3_EEXadL_ZNS0_9dimensionES3_EEXadL_ZNS0_5alnumES3_EEEEES3_S3_EEJEEES3_S3_EEEES3_S3_EEXadL_ZNS9_IXadL_ZNS6_ILc45EEES3_S3_EEEES3_S3_EEEEES3_S3_EEJEEES3_S3_@Base 3.6.4-4~
+ (optional=templinst|arch=alpha amd64 arm64 armel armhf hppa i386 ia64 sh4 sparc64 x32)_ZN4Sass8Prelexer12alternativesIXadL_ZNS0_9dimensionEPKcEEXadL_ZNS0_8variableES3_EEJXadL_ZNS0_5alnumES3_EEXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc92EEES3_S3_EEXadL_ZNS0_8any_charES3_EEJEEES3_S3_EEEEES3_S3_@Base 3.6.5+20220909
  _ZN4Sass8Prelexer12calc_fn_callEPKc@Base 3.5.5-4~
  _ZN4Sass8Prelexer12css_commentsEPKc@Base 3.5.5-4~
  _ZN4Sass8Prelexer12default_flagEPKc@Base 3.5.5-4~
@@ -3337,7 +3070,6 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass8Prelexer21space_list_terminatorEPKc@Base 3.5.5-4~
  _ZN4Sass8Prelexer21string_double_negatesE@Base 3.5.5-4~
  _ZN4Sass8Prelexer21string_single_negatesE@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer22find_first_in_intervalIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants11hash_lbraceEEEEEPKcS5_EEEES5_S5_S5_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer22find_first_in_intervalIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants11hash_lbraceEEEEEPKcS5_EEXadL_ZNS0_13block_commentES5_EEEES5_S5_S5_@Base 3.5.5-4~
  _ZN4Sass8Prelexer22hyphens_and_identifierEPKc@Base 3.5.5-4~
  _ZN4Sass8Prelexer22is_escapable_characterEc@Base 3.6.4-2~
@@ -3427,16 +3159,16 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass8Prelexer8one_plusIXadL_ZNS0_12alternativesIXadL_ZNS0_6spacesEPKcEEXadL_ZNS0_13block_commentES4_EEJXadL_ZNS0_12line_commentES4_EEXadL_ZNS0_27schema_reference_combinatorES4_EEXadL_ZNS0_10class_charIXadL_ZNS_9Constants22selector_lookahead_opsEEEEES4_S4_EEXadL_ZNS5_IXadL_ZNS6_23selector_combinator_opsEEEEES4_S4_EEXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc40EEES4_S4_EEXadL_ZNS0_15optional_spacesES4_EEJXadL_ZNS0_8optionalIXadL_ZNS0_16re_selector_listES4_EEEES4_S4_EEXadL_ZNS0_15optional_spacesES4_EEXadL_ZNS8_ILc41EEES4_S4_EEEEES4_S4_EEXadL_ZNS2_IXadL_ZNS0_11exact_matchES4_EEXadL_ZNS0_11class_matchES4_EEJXadL_ZNS0_10dash_matchES4_EEXadL_ZNS0_12prefix_matchES4_EEXadL_ZNS0_12suffix_matchES4_EEXadL_ZNS0_15substring_matchES4_EEEEES4_S4_EEXadL_ZNS7_IXadL_ZNS9_IXadL_ZNS0_16namespace_schemaES4_EEEES4_S4_EEXadL_ZNS2_IXadL_ZNS7_IXadL_ZNS8_ILc35EEES4_S4_EEXadL_ZNS0_6negateIXadL_ZNS8_ILc123EEES4_S4_EEEES4_S4_EEJEEES4_S4_EEXadL_ZNS8_ILc46EEES4_S4_EEJXadL_ZNS7_IXadL_ZNS9_IXadL_ZNS0_13pseudo_prefixES4_EEEES4_S4_EEXadL_ZNSA_IXadL_ZNS0_10uri_prefixES4_EEEES4_S4_EEJEEES4_S4_EEEEES4_S4_EEJXadL_ZNS1_IXadL_ZNS7_IXadL_ZNS0_9zero_plusIXadL_ZNS7_IXadL_ZNS8_ILc45EEES4_S4_EEXadL_ZNS0_15optional_spacesES4_EEJEEES4_S4_EEEES4_S4_EEXadL_ZNS2_IXadL_ZNS0_12kwd_optionalES4_EEXadL_ZNS8_ILc42EEES4_S4_EEJXadL_ZNS0_13quoted_stringES4_EEXadL_ZNS0_11interpolantES4_EEXadL_ZNS0_10identifierES4_EEXadL_ZNS0_8variableES4_EEXadL_ZNS0_10percentageES4_EEXadL_ZNS0_8binomialES4_EEXadL_ZNS0_9dimensionES4_EEXadL_ZNS0_5alnumES4_EEEEES4_S4_EEJEEES4_S4_EEEES4_S4_EEXadL_ZNSB_IXadL_ZNS8_ILc45EEES4_S4_EEEES4_S4_EEEEES4_S4_EEEEES4_S4_EEEES4_S4_@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass8Prelexer8one_plusIXadL_ZNS0_12alternativesIXadL_ZNS0_7exactlyILc62EEEPKcS5_EEXadL_ZNS0_8sequenceIXadL_ZNS3_ILc92EEES5_S5_EEXadL_ZNS0_8any_charES5_EEJEEES5_S5_EEJXadL_ZNS6_IXadL_ZNS0_6negateIXadL_ZNS6_IXadL_ZNS0_7exactlyIXadL_ZNS_9Constants7url_kwdEEEEES5_S5_EEXadL_ZNS3_ILc40EEES5_S5_EEJEEES5_S5_EEEES5_S5_EEXadL_ZNS0_14neg_class_charIXadL_ZNS9_22almost_any_value_classEEEEES5_S5_EEJEEES5_S5_EEXadL_ZNS6_IXadL_ZNS3_ILc47EEES5_S5_EEXadL_ZNS7_IXadL_ZNS2_IXadL_ZNS3_ILc47EEES5_S5_EEXadL_ZNS3_ILc42EEES5_S5_EEJEEES5_S5_EEEES5_S5_EEJEEES5_S5_EEXadL_ZNS6_IXadL_ZNS3_ILc92EEES5_S5_EEXadL_ZNS3_ILc35EEES5_S5_EEJXadL_ZNS7_IXadL_ZNS3_ILc123EEES5_S5_EEEES5_S5_EEEEES5_S5_EEXadL_ZNS6_IXadL_ZNS3_ILc33EEES5_S5_EEXadL_ZNS7_IXadL_ZNS0_5alphaES5_EEEES5_S5_EEJEEES5_S5_EEEEES5_S5_EEEES5_S5_@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass8Prelexer8one_plusIXadL_ZNS0_7exactlyILc58EEEPKcS4_EEEES4_S4_@Base 3.5.5-4~
+ (optional=templinst)_ZN4Sass8Prelexer8one_plusIXadL_ZNS0_8sequenceIXadL_ZNS0_9zero_plusIXadL_ZNS0_12alternativesIXadL_ZNS0_10identifierEPKcEEXadL_ZNS0_7exactlyILc45EEES6_S6_EEJEEES6_S6_EEEES6_S6_EEXadL_ZNS1_IXadL_ZNS2_IXadL_ZNS0_11interpolantES6_EEXadL_ZNS4_IXadL_ZNS0_6digitsES6_EEXadL_ZNS0_10identifierES6_EEJXadL_ZNS7_ILc43EEES6_S6_EEXadL_ZNS7_ILc45EEES6_S6_EEEEES6_S6_EEJEEES6_S6_EEEES6_S6_EEJEEES6_S6_EEEES6_S6_@Base 3.6.5+20211111
  (optional=templinst)_ZN4Sass8Prelexer8one_plusIXadL_ZNS0_8sequenceIXadL_ZNS0_9zero_plusIXadL_ZNS0_12alternativesIXadL_ZNS2_IXadL_ZNS0_8optionalIXadL_ZNS0_7exactlyILc36EEEPKcS8_EEEES8_S8_EEXadL_ZNS0_10identifierES8_EEJEEES8_S8_EEXadL_ZNS6_ILc45EEES8_S8_EEJEEES8_S8_EEEES8_S8_EEXadL_ZNS0_11interpolantES8_EEJXadL_ZNS3_IXadL_ZNS4_IXadL_ZNS0_6digitsES8_EEXadL_ZNS2_IXadL_ZNS5_IXadL_ZNS6_ILc36EEES8_S8_EEEES8_S8_EEXadL_ZNS0_10identifierES8_EEJEEES8_S8_EEJXadL_ZNS0_13quoted_stringES8_EEXadL_ZNS6_ILc45EEES8_S8_EEEEES8_S8_EEEES8_S8_EEEEES8_S8_EEEES8_S8_@Base 3.6.4-4~
+ (optional=templinst)_ZN4Sass8Prelexer8one_plusIXadL_ZNS0_8sequenceIXadL_ZNS0_9zero_plusIXadL_ZNS2_IXadL_ZNS0_7exactlyILc45EEEPKcS6_EEXadL_ZNS0_15optional_spacesES6_EEJEEES6_S6_EEEES6_S6_EEXadL_ZNS0_12alternativesIXadL_ZNS0_12kwd_optionalES6_EEXadL_ZNS4_ILc42EEES6_S6_EEJXadL_ZNS0_13quoted_stringES6_EEXadL_ZNS0_11interpolantES6_EEXadL_ZNS0_10identifierES6_EEXadL_ZNS0_8variableES6_EEXadL_ZNS0_10percentageES6_EEXadL_ZNS0_8binomialES6_EEXadL_ZNS0_9dimensionES6_EEXadL_ZNS0_5alnumES6_EEEEES6_S6_EEJEEES6_S6_EEEES6_S6_@Base 3.6.5+20211111
  _ZN4Sass8Prelexer8one_unitEPKc@Base 3.5.5-4~
  _ZN4Sass8Prelexer8real_uriEPKc@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_10percentageEPKcEEXadL_ZNS0_9lookaheadIXadL_ZNS0_6numberES3_EEEES3_S3_EEJEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_10uri_prefixEPKcEEXadL_ZNS0_1WES3_EEJXadL_ZNS0_14real_uri_valueES3_EEEEES3_S3_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_11interpolantEPKcEEXadL_ZNS0_12alternativesIXadL_ZNS0_6digitsES3_EEXadL_ZNS0_10identifierES3_EEJXadL_ZNS0_7exactlyILc43EEES3_S3_EEXadL_ZNS5_ILc45EEES3_S3_EEEEES3_S3_EEJEEES3_S3_@Base 3.5.5-4~
- _ZN4Sass8Prelexer8sequenceIXadL_ZNS0_12alternativesIXadL_ZNS0_17identifier_schemaEPKcEEXadL_ZNS0_10identifierES4_EEJEEES4_S4_EEXadL_ZNS0_9zero_plusIXadL_ZNS1_IXadL_ZNS0_7exactlyILc46EEES4_S4_EEXadL_ZNS2_IXadL_ZNS0_17identifier_schemaES4_EEXadL_ZNS0_10identifierES4_EEJEEES4_S4_EEJEEES4_S4_EEEES4_S4_EEJXadL_ZNS5_IXadL_ZNS1_IXadL_ZNS6_ILc40EEES4_S4_EEXadL_ZNS0_23optional_css_whitespaceES4_EEJXadL_ZNS0_8optionalIXadL_ZNS1_IXadL_ZNS2_IXadL_ZNS0_8variableES4_EEXadL_ZNS0_17identifier_schemaES4_EEJXadL_ZNS0_10identifierES4_EEEEES4_S4_EEXadL_ZNS0_23optional_css_whitespaceES4_EEJXadL_ZNS6_ILc61EEES4_S4_EEXadL_ZNS0_23optional_css_whitespaceES4_EEXadL_ZNS2_IXadL_ZNS0_8variableES4_EEXadL_ZNS0_17identifier_schemaES4_EEJXadL_ZNS0_10identifierES4_EEXadL_ZNS0_13quoted_stringES4_EEXadL_ZNS0_6numberES4_EEXadL_ZNS0_3hexES4_EEXadL_ZNS0_4hexaES4_EEEEES4_S4_EEXadL_ZNS5_IXadL_ZNS1_IXadL_ZNS0_23optional_css_whitespaceES4_EEXadL_ZNS6_ILc44EEES4_S4_EEJXadL_ZNS0_23optional_css_whitespaceES4_EEXadL_ZNS1_IXadL_ZNS2_IXadL_ZNS0_8variableES4_EEXadL_ZNS0_17identifier_schemaES4_EEJXadL_ZNS0_10identifierES4_EEEEES4_S4_EEXadL_ZNS0_23optional_css_whitespaceES4_EEJXadL_ZNS6_ILc61EEES4_S4_EEXadL_ZNS0_23optional_css_whitespaceES4_EEXadL_ZNS2_IXadL_ZNS0_8variableES4_EEXadL_ZNS0_17identifier_schemaES4_EEJXadL_ZNS0_10identifierES4_EEXadL_ZNS0_13quoted_stringES4_EEXadL_ZNS0_6numberES4_EEXadL_ZNS0_3hexES4_EEXadL_ZNS0_4hexaES4_EEEEES4_S4_EEEEES4_S4_EEEEES4_S4_EEEES4_S4_EEEEES4_S4_EEEES4_S4_EEXadL_ZNS0_23optional_css_whitespaceES4_EEXadL_ZNS6_ILc41EEES4_S4_EEEEES4_S4_EEEES4_S4_EEEEES4_S4_@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_12alternativesIXadL_ZNS0_3hexEPKcEEXadL_ZNS0_4hex0ES4_EEJEEES4_S4_EEXadL_ZNS0_6negateIXadL_ZNS0_7exactlyILc45EEES4_S4_EEEES4_S4_EEJEEES4_S4_@Base 3.5.5-4~
+ (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_12alternativesIXadL_ZNS0_8variableEPKcEEXadL_ZNS0_17identifier_schemaES4_EEJXadL_ZNS0_10identifierES4_EEXadL_ZNS0_13quoted_stringES4_EEXadL_ZNS0_6numberES4_EEXadL_ZNS0_3hexES4_EEXadL_ZNS0_4hexaES4_EEEEES4_S4_EEXadL_ZNS0_9zero_plusIXadL_ZNS1_IXadL_ZNS0_23optional_css_whitespaceES4_EEXadL_ZNS0_7exactlyILc44EEES4_S4_EEJXadL_ZNS0_23optional_css_whitespaceES4_EEXadL_ZNS1_IXadL_ZNS2_IXadL_ZNS0_8variableES4_EEXadL_ZNS0_17identifier_schemaES4_EEJXadL_ZNS0_10identifierES4_EEEEES4_S4_EEXadL_ZNS0_23optional_css_whitespaceES4_EEJXadL_ZNS6_ILc61EEES4_S4_EEXadL_ZNS0_23optional_css_whitespaceES4_EEXadL_ZNS2_IXadL_ZNS0_8variableES4_EEXadL_ZNS0_17identifier_schemaES4_EEJXadL_ZNS0_10identifierES4_EEXadL_ZNS0_13quoted_stringES4_EEXadL_ZNS0_6numberES4_EEXadL_ZNS0_3hexES4_EEXadL_ZNS0_4hexaES4_EEEEES4_S4_EEEEES4_S4_EEEEES4_S4_EEEES4_S4_EEJEEES4_S4_@Base 3.6.5+20211111
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_12alternativesIXadL_ZNS1_IXadL_ZNS0_15optional_spacesEPKcEEXadL_ZNS2_IXadL_ZNS0_7exactlyILc47EEES4_S4_EEXadL_ZNS5_ILc44EEES4_S4_EEJXadL_ZNS5_ILc32EEES4_S4_EEEEES4_S4_EEJXadL_ZNS0_15optional_spacesES4_EEEEES4_S4_EEXadL_ZNS0_6spacesES4_EEJEEES4_S4_EEXadL_ZNS0_16static_componentES4_EEJEEES4_S4_@Base 3.5.5-4~
- (optional=templinst|arch=ia64)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_12alternativesIXadL_ZNS1_IXadL_ZNS0_7exactlyILc35EEEPKcS5_EEXadL_ZNS0_6negateIXadL_ZNS3_ILc123EEES5_S5_EEEES5_S5_EEJEEES5_S5_EEXadL_ZNS3_ILc46EEES5_S5_EEJXadL_ZNS1_IXadL_ZNS0_8optionalIXadL_ZNS0_13pseudo_prefixES5_EEEES5_S5_EEXadL_ZNS6_IXadL_ZNS0_10uri_prefixES5_EEEES5_S5_EEJEEES5_S5_EEEEES5_S5_EEXadL_ZNS0_8one_plusIXadL_ZNS1_IXadL_ZNS0_9zero_plusIXadL_ZNS1_IXadL_ZNS3_ILc45EEES5_S5_EEXadL_ZNS0_15optional_spacesES5_EEJEEES5_S5_EEEES5_S5_EEXadL_ZNS2_IXadL_ZNS0_12kwd_optionalES5_EEXadL_ZNS3_ILc42EEES5_S5_EEJXadL_ZNS0_13quoted_stringES5_EEXadL_ZNS0_11interpolantES5_EEXadL_ZNS0_10identifierES5_EEXadL_ZNS0_8variableES5_EEXadL_ZNS0_10percentageES5_EEXadL_ZNS0_8binomialES5_EEXadL_ZNS0_9dimensionES5_EEXadL_ZNS0_5alnumES5_EEEEES5_S5_EEJEEES5_S5_EEEES5_S5_EEJXadL_ZNS9_IXadL_ZNS3_ILc45EEES5_S5_EEEES5_S5_EEEEES5_S5_@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_12calc_fn_callEPKcEEXadL_ZNS0_7exactlyILc40EEES3_S3_EEJEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_13quoted_stringEPKcEEXadL_ZNS0_15optional_spacesES3_EEJXadL_ZNS0_7exactlyILc59EEES3_S3_EEEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_13quoted_stringEPKcEEXadL_ZNS0_9lookaheadIXadL_ZNS0_7exactlyILc45EEES3_S3_EEEES3_S3_EEJEEES3_S3_@Base 3.5.5-4~
@@ -3444,45 +3176,23 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_15optional_spacesEPKcEEXadL_ZNS0_7exactlyIXadL_ZNS_9Constants6rbraceEEEEES3_S3_EEJEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_16static_componentEPKcEEXadL_ZNS0_8one_plusIXadL_ZNS0_17strict_identifierES3_EEEES3_S3_EEJEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_1WEPKcEEXadL_ZNS0_12alternativesIXadL_ZNS0_13quoted_stringES3_EEXadL_ZNS0_10non_greedyIXadL_ZNS4_IXadL_ZNS0_10class_charIXadL_ZNS_9Constants14real_uri_charsEEEEES3_S3_EEXadL_ZNS0_13uri_characterES3_EEJXadL_ZNS0_8NONASCIIES3_EEXadL_ZNS0_6ESCAPEES3_EEEEES3_S3_EEXadL_ZNS4_IXadL_ZNS1_IXadL_ZNS0_1WES3_EEXadL_ZNS0_7exactlyILc41EEES3_S3_EEJEEES3_S3_EEXadL_ZNS0_7exactlyIXadL_ZNS7_11hash_lbraceEEEEES3_S3_EEJEEES3_S3_EEEES3_S3_EEJEEES3_S3_EEJEEES3_S3_@Base 3.5.5-4~
- (optional=templinst|arch=ia64 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_21optional_css_commentsEPKcEEXadL_ZNS0_12alternativesIXadL_ZNS0_7exactlyILc44EEES3_S3_EEXadL_ZNS5_ILc40EEES3_S3_EEJXadL_ZNS5_ILc41EEES3_S3_EEXadL_ZNS0_12kwd_optionalES3_EEXadL_ZNS0_13quoted_stringES3_EEXadL_ZNS0_11interpolantES3_EEXadL_ZNS0_10identifierES3_EEXadL_ZNS0_10percentageES3_EEXadL_ZNS0_9dimensionES3_EEXadL_ZNS0_8variableES3_EEXadL_ZNS0_5alnumES3_EEXadL_ZNS1_IXadL_ZNS5_ILc92EEES3_S3_EEXadL_ZNS0_8any_charES3_EEJEEES3_S3_EEEEES3_S3_EEJEEES3_S3_@Base 3.5.5-4~
- (optional=templinst|arch=ia64)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_23optional_css_whitespaceEPKcEEXadL_ZNS0_7exactlyILc44EEES3_S3_EEJXadL_ZNS0_23optional_css_whitespaceES3_EEXadL_ZNS1_IXadL_ZNS0_12alternativesIXadL_ZNS0_8variableES3_EEXadL_ZNS0_17identifier_schemaES3_EEJXadL_ZNS0_10identifierES3_EEEEES3_S3_EEXadL_ZNS0_23optional_css_whitespaceES3_EEJXadL_ZNS4_ILc61EEES3_S3_EEXadL_ZNS0_23optional_css_whitespaceES3_EEXadL_ZNS5_IXadL_ZNS0_8variableES3_EEXadL_ZNS0_17identifier_schemaES3_EEJXadL_ZNS0_10identifierES3_EEXadL_ZNS0_13quoted_stringES3_EEXadL_ZNS0_6numberES3_EEXadL_ZNS0_3hexES3_EEXadL_ZNS0_4hexaES3_EEEEES3_S3_EEEEES3_S3_EEEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_3hexEPKcEEXadL_ZNS0_6negateIXadL_ZNS0_7exactlyILc45EEES3_S3_EEEES3_S3_EEJEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_6negateIXadL_ZNS0_15unsigned_numberEPKcEEEES4_S4_EEXadL_ZNS0_7exactlyILc45EEES4_S4_EEJXadL_ZNS2_IXadL_ZNS0_15unsigned_numberES4_EEEES4_S4_EEEEES4_S4_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_6negateIXadL_ZNS0_15unsigned_numberEPKcEEEES4_S4_EEXadL_ZNS0_7exactlyILc45EEES4_S4_EEJXadL_ZNS2_IXadL_ZNS0_5spaceES4_EEEES4_S4_EEEEES4_S4_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_6negateIXadL_ZNS0_5digitEPKcEEEES4_S4_EEXadL_ZNS0_7exactlyILc45EEES4_S4_EEJEEES4_S4_@Base 3.5.5-4~
+ (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_6negateIXadL_ZNS1_IXadL_ZNS0_7exactlyIXadL_ZNS_9Constants7url_kwdEEEEEPKcS6_EEXadL_ZNS0_7exactlyILc40EEES6_S6_EEJEEES6_S6_EEEES6_S6_EEXadL_ZNS0_14neg_class_charIXadL_ZNS4_22almost_any_value_classEEEEES6_S6_EEJEEES6_S6_@Base 3.6.5+20211111
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_6numberEPKcEEXadL_ZNS0_9lookaheadIXadL_ZNS1_IXadL_ZNS0_2opES3_EEXadL_ZNS0_6numberES3_EEJEEES3_S3_EEEES3_S3_EEJEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyILc35EEEPKcS4_EEXadL_ZNS0_10identifierES4_EEJEEES4_S4_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyILc36EEEPKcS4_EEXadL_ZNS0_10identifierES4_EEJEEES4_S4_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyILc45EEEPKcS4_EEXadL_ZNS2_ILc45EEES4_S4_EEJEEES4_S4_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants10extend_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants10import_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants10return_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants11at_root_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants11charset_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants11content_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants11hash_lbraceEEEEEPKcS5_EEXadL_ZNS2_IXadL_ZNS3_6rbraceEEEEES5_S5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants11include_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants12function_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants13important_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants14expression_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants6if_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants7for_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants7url_kwdEEEEEPKcS5_EEXadL_ZNS0_7exactlyILc40EEES5_S5_EEJEEES5_S5_@Base 3.6.4-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants8each_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants8else_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants8warn_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants9debug_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants9error_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants9media_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants9mixin_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7exactlyIXadL_ZNS_9Constants9while_kwdEEEEEPKcS5_EEXadL_ZNS0_13word_boundaryES5_EEJEEES5_S5_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_7kwd_notEPKcEEEES3_S3_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_8binomialEPKcEEXadL_ZNS0_13word_boundaryES3_EEJEEES3_S3_@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_8optionalIXadL_ZNS0_13pseudo_prefixEPKcEEEES4_S4_EEXadL_ZNS0_10identifierES4_EEJEEES4_S4_@Base 3.5.5-4~
- (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_8optionalIXadL_ZNS0_18value_combinationsEPKcEEEES4_S4_EEXadL_ZNS0_11interpolantES4_EEJXadL_ZNS2_IXadL_ZNS0_18value_combinationsES4_EEEES4_S4_EEEEES4_S4_@Base 3.5.5-4~
+ (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_8optionalIXadL_ZNS0_16namespace_schemaEPKcEEEES4_S4_EEXadL_ZNS0_12alternativesIXadL_ZNS1_IXadL_ZNS0_7exactlyILc35EEES4_S4_EEXadL_ZNS0_6negateIXadL_ZNS6_ILc123EEES4_S4_EEEES4_S4_EEJEEES4_S4_EEXadL_ZNS6_ILc46EEES4_S4_EEJXadL_ZNS1_IXadL_ZNS2_IXadL_ZNS0_13pseudo_prefixES4_EEEES4_S4_EEXadL_ZNS7_IXadL_ZNS0_10uri_prefixES4_EEEES4_S4_EEJEEES4_S4_EEEEES4_S4_EEJXadL_ZNS0_8one_plusIXadL_ZNS1_IXadL_ZNS0_9zero_plusIXadL_ZNS1_IXadL_ZNS6_ILc45EEES4_S4_EEXadL_ZNS0_15optional_spacesES4_EEJEEES4_S4_EEEES4_S4_EEXadL_ZNS5_IXadL_ZNS0_12kwd_optionalES4_EEXadL_ZNS6_ILc42EEES4_S4_EEJXadL_ZNS0_13quoted_stringES4_EEXadL_ZNS0_11interpolantES4_EEXadL_ZNS0_10identifierES4_EEXadL_ZNS0_8variableES4_EEXadL_ZNS0_10percentageES4_EEXadL_ZNS0_8binomialES4_EEXadL_ZNS0_9dimensionES4_EEXadL_ZNS0_5alnumES4_EEEEES4_S4_EEJEEES4_S4_EEEES4_S4_EEXadL_ZNS9_IXadL_ZNS6_ILc45EEES4_S4_EEEES4_S4_EEEEES4_S4_@Base 3.6.5+20211111
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_8optionalIXadL_ZNS0_7exactlyILc42EEEPKcS5_EEEES5_S5_EEXadL_ZNS0_10identifierES5_EEJXadL_ZNS0_9zero_plusIXadL_ZNS0_13block_commentES5_EEEES5_S5_EEEEES5_S5_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_8optionalIXadL_ZNS0_7exactlyILc42EEEPKcS5_EEEES5_S5_EEXadL_ZNS0_17identifier_schemaES5_EEJEEES5_S5_@Base 3.5.5-4~
- _ZN4Sass8Prelexer8sequenceIXadL_ZNS0_8optionalIXadL_ZNS1_IXadL_ZNS0_12alternativesIXadL_ZNS0_8variableEPKcEEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEEEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEJXadL_ZNS0_7exactlyILc61EEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS3_IXadL_ZNS0_8variableES5_EEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEXadL_ZNS0_13quoted_stringES5_EEXadL_ZNS0_6numberES5_EEXadL_ZNS0_3hexES5_EEXadL_ZNS0_4hexaES5_EEEEES5_S5_EEXadL_ZNS0_9zero_plusIXadL_ZNS1_IXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS6_ILc44EEES5_S5_EEJXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS1_IXadL_ZNS3_IXadL_ZNS0_8variableES5_EEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEEEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEJXadL_ZNS6_ILc61EEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS3_IXadL_ZNS0_8variableES5_EEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEXadL_ZNS0_13quoted_stringES5_EEXadL_ZNS0_6numberES5_EEXadL_ZNS0_3hexES5_EEXadL_ZNS0_4hexaES5_EEEEES5_S5_EEEEES5_S5_EEEEES5_S5_EEEES5_S5_EEEEES5_S5_EEEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEJXadL_ZNS6_ILc41EEES5_S5_EEEEES5_S5_@Base 3.5.5-4~
+ _ZN4Sass8Prelexer8sequenceIXadL_ZNS0_8optionalIXadL_ZNS1_IXadL_ZNS0_12alternativesIXadL_ZNS0_8variableEPKcEEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEEEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEJXadL_ZNS0_7exactlyILc61EEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS3_IXadL_ZNS0_8variableES5_EEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEXadL_ZNS0_13quoted_stringES5_EEXadL_ZNS0_6numberES5_EEXadL_ZNS0_3hexES5_EEXadL_ZNS0_4hexaES5_EEEEES5_S5_EEXadL_ZNS0_9zero_plusIXadL_ZNS1_IXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS6_ILc44EEES5_S5_EEJXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS1_IXadL_ZNS3_IXadL_ZNS0_8variableES5_EEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEEEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEJXadL_ZNS6_ILc61EEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS3_IXadL_ZNS0_8variableES5_EEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEXadL_ZNS0_13quoted_stringES5_EEXadL_ZNS0_6numberES5_EEXadL_ZNS0_3hexES5_EEXadL_ZNS0_4hexaES5_EEEEES5_S5_EEEEES5_S5_EEEEES5_S5_EEEES5_S5_EEEEES5_S5_EEEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEJXadL_ZNS6_ILc41EEES5_S5_EEEEES5_S5_@Base 3.6.5+20220909
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_8optionalIXadL_ZNS1_IXadL_ZNS0_7exactlyILc45EEEPKcS5_EEXadL_ZNS0_8one_plusIXadL_ZNS0_12alternativesIXadL_ZNS0_5alphaES5_EEXadL_ZNS3_ILc43EEES5_S5_EEJXadL_ZNS3_ILc45EEES5_S5_EEEEES5_S5_EEEES5_S5_EEJEEES5_S5_EEEES5_S5_EEXadL_ZNS7_IXadL_ZNS0_4wordIXadL_ZNS_9Constants14expression_kwdEEEEES5_S5_EEXadL_ZNS1_IXadL_ZNS1_IXadL_ZNS0_7exactlyIXadL_ZNS9_10progid_kwdEEEEES5_S5_EEXadL_ZNS3_ILc58EEES5_S5_EEJEEES5_S5_EEXadL_ZNS0_9zero_plusIXadL_ZNS7_IXadL_ZNS0_10char_rangeILc97ELc122EEES5_S5_EEXadL_ZNS3_ILc46EEES5_S5_EEJEEES5_S5_EEEES5_S5_EEJEEES5_S5_EEJEEES5_S5_EEJEEES5_S5_@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_8sequenceIXadL_ZNS0_10identifierEPKcEEXadL_ZNS0_8optionalIXadL_ZNS0_13block_commentES4_EEEES4_S4_EEJXadL_ZNS0_7exactlyILc40EEES4_S4_EEEEES4_S4_EEEES4_S4_@Base 3.6.4-2~
  (optional=templinst)_ZN4Sass8Prelexer8sequenceIXadL_ZNS0_8variableEPKcEEXadL_ZNS0_21optional_css_commentsES3_EEJXadL_ZNS0_7exactlyILc58EEES3_S3_EEEEES3_S3_@Base 3.5.5-4~
@@ -3511,8 +3221,7 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass8Prelexer9universalEPKc@Base 3.5.5-4~
  (optional=templinst)_ZN4Sass8Prelexer9zero_plusIXadL_ZNS0_12alternativesIXadL_ZNS0_23strict_identifier_alnumEPKcEEXadL_ZNS0_8sequenceIXadL_ZNS0_8one_plusIXadL_ZNS0_7exactlyILc45EEES4_S4_EEEES4_S4_EEXadL_ZNS0_23strict_identifier_alphaES4_EEJEEES4_S4_EEJEEES4_S4_EEEES4_S4_@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass8Prelexer9zero_plusIXadL_ZNS0_12alternativesIXadL_ZNS0_6digitsEPKcEEXadL_ZNS0_8sequenceIXadL_ZNS0_8optionalIXadL_ZNS0_7exactlyILc36EEES4_S4_EEEES4_S4_EEXadL_ZNS0_10identifierES4_EEJEEES4_S4_EEJXadL_ZNS0_13quoted_stringES4_EEXadL_ZNS7_ILc45EEES4_S4_EEEEES4_S4_EEEES4_S4_@Base 3.6.4-4~
- (optional=templinst)_ZN4Sass8Prelexer9zero_plusIXadL_ZNS0_12alternativesIXadL_ZNS0_7exactlyILc32EEEPKcS5_EEXadL_ZNS3_ILc9EEES5_S5_EEJXadL_ZNS0_12line_commentES5_EEXadL_ZNS0_13block_commentES5_EEXadL_ZNS0_12delimited_byIXadL_ZNS_9Constants10slash_starEEEXadL_ZNS7_10star_slashEEELb0EEES5_S5_EEEEES5_S5_EEEES5_S5_@Base 3.6.4-4~
- (optional=templinst|arch=ia64)_ZN4Sass8Prelexer9zero_plusIXadL_ZNS0_8sequenceIXadL_ZNS0_23optional_css_whitespaceEPKcEEXadL_ZNS0_7exactlyILc44EEES4_S4_EEJXadL_ZNS0_23optional_css_whitespaceES4_EEXadL_ZNS2_IXadL_ZNS0_12alternativesIXadL_ZNS0_8variableES4_EEXadL_ZNS0_17identifier_schemaES4_EEJXadL_ZNS0_10identifierES4_EEEEES4_S4_EEXadL_ZNS0_23optional_css_whitespaceES4_EEJXadL_ZNS5_ILc61EEES4_S4_EEXadL_ZNS0_23optional_css_whitespaceES4_EEXadL_ZNS6_IXadL_ZNS0_8variableES4_EEXadL_ZNS0_17identifier_schemaES4_EEJXadL_ZNS0_10identifierES4_EEXadL_ZNS0_13quoted_stringES4_EEXadL_ZNS0_6numberES4_EEXadL_ZNS0_3hexES4_EEXadL_ZNS0_4hexaES4_EEEEES4_S4_EEEEES4_S4_EEEEES4_S4_EEEES4_S4_@Base 3.6.4-4~
+ (optional=templinst)_ZN4Sass8Prelexer9zero_plusIXadL_ZNS0_8sequenceIXadL_ZNS0_12alternativesIXadL_ZNS2_IXadL_ZNS0_15optional_spacesEPKcEEXadL_ZNS3_IXadL_ZNS0_7exactlyILc47EEES5_S5_EEXadL_ZNS6_ILc44EEES5_S5_EEJXadL_ZNS6_ILc32EEES5_S5_EEEEES5_S5_EEJXadL_ZNS0_15optional_spacesES5_EEEEES5_S5_EEXadL_ZNS0_6spacesES5_EEJEEES5_S5_EEXadL_ZNS0_16static_componentES5_EEJEEES5_S5_EEEES5_S5_@Base 3.6.5+20211111
  _ZN4Sass8Prelexer9zero_plusIXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc40EEEPKcS5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEJXadL_ZNS0_8optionalIXadL_ZNS2_IXadL_ZNS0_12alternativesIXadL_ZNS0_8variableES5_EEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEEEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEJXadL_ZNS3_ILc61EEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS7_IXadL_ZNS0_8variableES5_EEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEXadL_ZNS0_13quoted_stringES5_EEXadL_ZNS0_6numberES5_EEXadL_ZNS0_3hexES5_EEXadL_ZNS0_4hexaES5_EEEEES5_S5_EEXadL_ZNS1_IXadL_ZNS2_IXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS3_ILc44EEES5_S5_EEJXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS2_IXadL_ZNS7_IXadL_ZNS0_8variableES5_EEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEEEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEJXadL_ZNS3_ILc61EEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS7_IXadL_ZNS0_8variableES5_EEXadL_ZNS0_17identifier_schemaES5_EEJXadL_ZNS0_10identifierES5_EEXadL_ZNS0_13quoted_stringES5_EEXadL_ZNS0_6numberES5_EEXadL_ZNS0_3hexES5_EEXadL_ZNS0_4hexaES5_EEEEES5_S5_EEEEES5_S5_EEEEES5_S5_EEEES5_S5_EEEEES5_S5_EEEES5_S5_EEXadL_ZNS0_23optional_css_whitespaceES5_EEXadL_ZNS3_ILc41EEES5_S5_EEEEES5_S5_EEEES5_S5_@Base 3.6.4-4~
  (optional=templinst)_ZN4Sass8Prelexer9zero_plusIXadL_ZNS0_8sequenceIXadL_ZNS0_7exactlyILc45EEEPKcS5_EEXadL_ZNS0_8one_plusIXadL_ZNS0_5alphaES5_EEEES5_S5_EEJEEES5_S5_EEEES5_S5_@Base 3.6.4-4~
  _ZN4Sass8SelectorC1ENS_10SourceSpanE@Base 3.6.4-2~
@@ -3576,8 +3285,6 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass9ArgumentsD2Ev@Base 3.5.5-4~
  _ZN4Sass9BacktraceC1ENS_10SourceSpanENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 3.6.4-2~
  _ZN4Sass9BacktraceC2ENS_10SourceSpanENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 3.6.4-2~
- _ZN4Sass9BacktraceD1Ev@Base 3.6.4-2~
- _ZN4Sass9BacktraceD2Ev@Base 3.6.4-2~
  _ZN4Sass9Base64VLQ10CHARACTERSE@Base 3.5.5-4~
  _ZN4Sass9Base64VLQ13VLQ_BASE_MASKE@Base 3.5.5-4~
  _ZN4Sass9Base64VLQ14VLQ_BASE_SHIFTE@Base 3.5.5-4~
@@ -4128,7 +3835,6 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass9ParameterD1Ev@Base 3.5.5-4~
  _ZN4Sass9ParameterD2Ev@Base 3.5.5-4~
  _ZN4Sass9SharedObj5taintE@Base 3.5.5-4~
- _ZN4Sass9SharedPtr11decRefCountEv@Base 3.5.5-4~
  _ZN4Sass9SharedPtraSEPNS_9SharedObjE@Base 3.6.4-4~
  _ZN4Sass9SourceMap13render_srcmapB5cxx11ERNS_7ContextE@Base 3.5.5-4~
  _ZN4Sass9SourceMap16add_open_mappingEPKNS_8AST_NodeE@Base 3.6.4
@@ -4140,11 +3846,11 @@ libsass.so.1 libsass1 #MINVER#
  _ZN4Sass9SourceMap7prependERKNS_12OutputBufferE@Base 3.5.5-4~
  _ZN4Sass9SourceMap7prependERKNS_6OffsetE@Base 3.5.5-4~
  _ZN4Sass9SourceMapC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 3.5.5-4~
- (arch=amd64 arm64 hppa sh4)_ZN4Sass9SourceMapC1ERKS0_@Base 3.6.5+20210718-1
  _ZN4Sass9SourceMapC1Ev@Base 3.5.5-4~
  _ZN4Sass9SourceMapC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 3.5.5-4~
- (arch=amd64 arm64 hppa sh4)_ZN4Sass9SourceMapC2ERKS0_@Base 3.6.5+20210718-1
  _ZN4Sass9SourceMapC2Ev@Base 3.5.5-4~
+ _ZN4Sass9SourceMapD1Ev@Base 3.6.5+20220909
+ _ZN4Sass9SourceMapD2Ev@Base 3.6.5+20220909
  _ZN4Sass9Statement11has_contentEv@Base 3.5.5-4~
  _ZN4Sass9Statement7bubblesEv@Base 3.5.5-4~
  (subst)_ZN4Sass9StatementC1ENS_10SourceSpanENS0_4TypeE{size_t}@Base 3.6.4-2~
@@ -4694,89 +4400,93 @@ libsass.so.1 libsass1 #MINVER#
  _ZNK4utf818invalid_code_point4whatEv@Base 3.5.5-4~
  (optional=templinst|subst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_10ExpressionEEESt4pairIKS3_S3_ESaIS6_ENSt8__detail10_Select1stENS0_15ObjHashEqualityENS0_7ObjHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEE19_M_find_before_nodeE{size_t}RS5_{size_t}@Base 3.6.4+20201122
  (optional=templinst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_10ExpressionEEESt4pairIKS3_S3_ESaIS6_ENSt8__detail10_Select1stENS0_15ObjHashEqualityENS0_7ObjHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEE4findERS5_@Base 3.6.4+20201122
- (optional=templinst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_10ExpressionEEESt4pairIKS3_S3_ESaIS6_ENSt8__detail10_Select1stENS0_15ObjHashEqualityENS0_7ObjHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEE5countERS5_@Base 3.6.5+20210718-1
- (optional=templinst|subst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_12SelectorListEEESt4pairIKS3_NS1_INS0_12CssMediaRuleEEEESaIS8_ENSt8__detail10_Select1stENS0_14ObjPtrEqualityENS0_10ObjPtrHashENSA_18_Mod_range_hashingENSA_20_Default_ranged_hashENSA_20_Prime_rehash_policyENSA_17_Hashtable_traitsILb1ELb0ELb1EEEE19_M_find_before_nodeE{size_t}RS5_{size_t}@Base 3.6.4-2~
- (optional=templinst|subst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEES3_SaIS3_ENSt8__detail9_IdentityENS0_11ObjEqualityENS0_7ObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE19_M_find_before_nodeE{size_t}RKS3_{size_t}@Base 3.6.4-2~
+ (optional=templinst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_12SelectorListEEESt4pairIKS3_NS1_INS0_12CssMediaRuleEEEESaIS8_ENSt8__detail10_Select1stENS0_14ObjPtrEqualityENS0_10ObjPtrHashENSA_18_Mod_range_hashingENSA_20_Default_ranged_hashENSA_20_Prime_rehash_policyENSA_17_Hashtable_traitsILb1ELb0ELb1EEEE4findERS5_@Base 3.6.5+20211111
  (optional=templinst|subst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_NS0_11ordered_mapINS1_INS0_15ComplexSelectorEEENS0_9ExtensionENS0_7ObjHashENS0_11ObjEqualityESaIS4_IKS8_S9_EEEEESaISG_ENSt8__detail10_Select1stESB_SA_NSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE19_M_find_before_nodeE{size_t}RS5_{size_t}@Base 3.6.4-2~
  (optional=templinst|subst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St13unordered_setINS1_INS0_12SelectorListEEENS0_10ObjPtrHashENS0_14ObjPtrEqualityESaIS8_EEESaISD_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSF_18_Mod_range_hashingENSF_20_Default_ranged_hashENSF_20_Prime_rehash_policyENSF_17_Hashtable_traitsILb1ELb0ELb1EEEE19_M_find_before_nodeE{size_t}RS5_{size_t}@Base 3.6.4-2~
  (optional=templinst|subst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St6vectorINS0_9ExtensionESaIS7_EEESaISA_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSC_18_Mod_range_hashingENSC_20_Default_ranged_hashENSC_20_Prime_rehash_policyENSC_17_Hashtable_traitsILb1ELb0ELb1EEEE19_M_find_before_nodeE{size_t}RS5_{size_t}@Base 3.6.4-2~
- (optional=templinst|subst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_{size_t}ESaIS6_ENSt8__detail10_Select1stENS0_14ObjPtrEqualityENS0_10ObjPtrHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEE19_M_find_before_nodeE{size_t}RS5_{size_t}@Base 3.6.4-2~
- (optional=templinst|subst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEES3_SaIS3_ENSt8__detail9_IdentityENS0_14ObjPtrEqualityENS0_10ObjPtrHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE19_M_find_before_nodeE{size_t}RKS3_{size_t}@Base 3.6.4-2~
  (optional=templinst|subst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEESt4pairIKS3_NS0_9ExtensionEESaIS7_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENS9_18_Mod_range_hashingENS9_20_Default_ranged_hashENS9_20_Prime_rehash_policyENS9_17_Hashtable_traitsILb1ELb0ELb1EEEE19_M_find_before_nodeE{size_t}RS5_{size_t}@Base 3.6.4-2~
- (optional=templinst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEESt4pairIKS3_NS0_9ExtensionEESaIS7_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENS9_18_Mod_range_hashingENS9_20_Default_ranged_hashENS9_20_Prime_rehash_policyENS9_17_Hashtable_traitsILb1ELb0ELb1EEEE4findERS5_@Base 3.6.5+20210718-1
- (optional=templinst|subst)_ZNKSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEE19_M_find_before_nodeE{size_t}RKS5_{size_t}@Base 3.6.4-2~
- (optional=templinst|subst)_ZNKSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEE19_M_find_before_nodeE{size_t}RS7_{size_t}@Base 3.6.4-2~
- (optional=templinst|subst)_ZNKSt10_HashtableIPKN4Sass14SimpleSelectorES3_SaIS3_ENSt8__detail9_IdentityENS0_14PtrObjEqualityENS0_10PtrObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE19_M_find_before_nodeE{size_t}RKS3_{size_t}@Base 3.6.4-2~
- (optional=templinst|subst)_ZNKSt10_HashtableIPKN4Sass15ComplexSelectorES3_SaIS3_ENSt8__detail9_IdentityENS0_14PtrObjEqualityENS0_10PtrObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE19_M_find_before_nodeE{size_t}RKS3_{size_t}@Base 3.6.4-2~
+ (optional=templinst)_ZNKSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEESt4pairIKS3_NS0_9ExtensionEESaIS7_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENS9_18_Mod_range_hashingENS9_20_Default_ranged_hashENS9_20_Prime_rehash_policyENS9_17_Hashtable_traitsILb1ELb0ELb1EEEE4findERS5_@Base 3.6.5+20211111
  (optional=templinst)_ZNKSt5ctypeIcE8do_widenEc@Base 3.5.5-4~
+ (optional=templinst)_ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_8AST_NodeEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE4findERS7_@Base 3.6.5+20211111
  (optional=templinst)_ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_9ParameterEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE4findERS7_@Base 3.5.5-4~
- (optional=templinst)_ZNKSt8__detail9_Map_baseIN4Sass10SharedImplINS1_10ExpressionEEESt4pairIKS4_S4_ESaIS7_ENS_10_Select1stENS1_15ObjHashEqualityENS1_7ObjHashENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb1ELb0ELb1EEELb1EE2atERS6_@Base 3.6.5+20210718-1
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_10ExpressionEEESt4pairIKS3_S3_ESaIS6_ENSt8__detail10_Select1stENS0_15ObjHashEqualityENS0_7ObjHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEE18_M_assign_elementsIRKSH_EEvOT_@Base 3.6.4+20201122
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_10ExpressionEEESt4pairIKS3_S3_ESaIS6_ENSt8__detail10_Select1stENS0_15ObjHashEqualityENS0_7ObjHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEE5clearEv@Base 3.6.4+20201122
- (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_10ExpressionEEESt4pairIKS3_S3_ESaIS6_ENSt8__detail10_Select1stENS0_15ObjHashEqualityENS0_7ObjHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEE6rehashE{size_t}@Base 3.6.5+20210718-1
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_10ExpressionEEESt4pairIKS3_S3_ESaIS6_ENSt8__detail10_Select1stENS0_15ObjHashEqualityENS0_7ObjHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_assignIRKSH_NS8_17_ReuseOrAllocNodeISaINS8_10_Hash_nodeIS6_Lb1EEEEEEEEvOT_RKT0_@Base 3.6.4+20201122
  (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_10ExpressionEEESt4pairIKS3_S3_ESaIS6_ENSt8__detail10_Select1stENS0_15ObjHashEqualityENS0_7ObjHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.4+20201122
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_10ExpressionEEESt4pairIKS3_S3_ESaIS6_ENSt8__detail10_Select1stENS0_15ObjHashEqualityENS0_7ObjHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEED1Ev@Base 3.6.4+20201122
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_10ExpressionEEESt4pairIKS3_S3_ESaIS6_ENSt8__detail10_Select1stENS0_15ObjHashEqualityENS0_7ObjHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEED2Ev@Base 3.6.4+20201122
- _ZNSt10_HashtableIN4Sass10SharedImplINS0_12SelectorListEEES3_SaIS3_ENSt8__detail9_IdentityENS0_14ObjPtrEqualityENS0_10ObjPtrHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE9_M_rehashEmRKm@Base 3.6.5+20210718-1
- _ZNSt10_HashtableIN4Sass10SharedImplINS0_12SelectorListEEESt4pairIKS3_NS1_INS0_12CssMediaRuleEEEESaIS8_ENSt8__detail10_Select1stENS0_14ObjPtrEqualityENS0_10ObjPtrHashENSA_18_Mod_range_hashingENSA_20_Default_ranged_hashENSA_20_Prime_rehash_policyENSA_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashEmRKm@Base 3.6.5+20210718-1
- _ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEES3_SaIS3_ENSt8__detail9_IdentityENS0_11ObjEqualityENS0_7ObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE9_M_rehashEmRKm@Base 3.6.5+20210718-1
+ (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_12SelectorListEEES3_SaIS3_ENSt8__detail9_IdentityENS0_14ObjPtrEqualityENS0_10ObjPtrHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20211111
+ (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_12SelectorListEEESt4pairIKS3_NS1_INS0_12CssMediaRuleEEEESaIS8_ENSt8__detail10_Select1stENS0_14ObjPtrEqualityENS0_10ObjPtrHashENSA_18_Mod_range_hashingENSA_20_Default_ranged_hashENSA_20_Prime_rehash_policyENSA_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20211111
+ (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEES3_SaIS3_ENSt8__detail9_IdentityENS0_11ObjEqualityENS0_7ObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20211111
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEES3_SaIS3_ENSt8__detail9_IdentityENS0_11ObjEqualityENS0_7ObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEES3_SaIS3_ENSt8__detail9_IdentityENS0_11ObjEqualityENS0_7ObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEED2Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_NS0_11ordered_mapINS1_INS0_15ComplexSelectorEEENS0_9ExtensionENS0_7ObjHashENS0_11ObjEqualityESaIS4_IKS8_S9_EEEEESaISG_ENSt8__detail10_Select1stESB_SA_NSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE12_Scoped_nodeD1Ev@Base 3.6.4-4~
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_NS0_11ordered_mapINS1_INS0_15ComplexSelectorEEENS0_9ExtensionENS0_7ObjHashENS0_11ObjEqualityESaIS4_IKS8_S9_EEEEESaISG_ENSt8__detail10_Select1stESB_SA_NSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE12_Scoped_nodeD2Ev@Base 3.6.4-4~
- _ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_NS0_11ordered_mapINS1_INS0_15ComplexSelectorEEENS0_9ExtensionENS0_7ObjHashENS0_11ObjEqualityESaIS4_IKS8_S9_EEEEESaISG_ENSt8__detail10_Select1stESB_SA_NSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE21_M_insert_unique_nodeEmmPNSI_10_Hash_nodeISG_Lb1EEEm@Base 3.6.5+20210718-1
+ (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_NS0_11ordered_mapINS1_INS0_15ComplexSelectorEEENS0_9ExtensionENS0_7ObjHashENS0_11ObjEqualityESaIS4_IKS8_S9_EEEEESaISG_ENSt8__detail10_Select1stESB_SA_NSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE21_M_insert_unique_nodeE{size_t}{size_t}PNSI_10_Hash_nodeISG_Lb1EEE{size_t}@Base 3.6.5+20211111
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_NS0_11ordered_mapINS1_INS0_15ComplexSelectorEEENS0_9ExtensionENS0_7ObjHashENS0_11ObjEqualityESaIS4_IKS8_S9_EEEEESaISG_ENSt8__detail10_Select1stESB_SA_NSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE5clearEv@Base 3.6.4-2~
- _ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_NS0_11ordered_mapINS1_INS0_15ComplexSelectorEEENS0_9ExtensionENS0_7ObjHashENS0_11ObjEqualityESaIS4_IKS8_S9_EEEEESaISG_ENSt8__detail10_Select1stESB_SA_NSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashEmRKm@Base 3.6.5+20210718-1
+ (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_NS0_11ordered_mapINS1_INS0_15ComplexSelectorEEENS0_9ExtensionENS0_7ObjHashENS0_11ObjEqualityESaIS4_IKS8_S9_EEEEESaISG_ENSt8__detail10_Select1stESB_SA_NSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20211111
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_NS0_11ordered_mapINS1_INS0_15ComplexSelectorEEENS0_9ExtensionENS0_7ObjHashENS0_11ObjEqualityESaIS4_IKS8_S9_EEEEESaISG_ENSt8__detail10_Select1stESB_SA_NSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_NS0_11ordered_mapINS1_INS0_15ComplexSelectorEEENS0_9ExtensionENS0_7ObjHashENS0_11ObjEqualityESaIS4_IKS8_S9_EEEEESaISG_ENSt8__detail10_Select1stESB_SA_NSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEED2Ev@Base 3.6.4-2~
- _ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St13unordered_setINS1_INS0_12SelectorListEEENS0_10ObjPtrHashENS0_14ObjPtrEqualityESaIS8_EEESaISD_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSF_18_Mod_range_hashingENSF_20_Default_ranged_hashENSF_20_Prime_rehash_policyENSF_17_Hashtable_traitsILb1ELb0ELb1EEEE21_M_insert_unique_nodeEmmPNSF_10_Hash_nodeISD_Lb1EEEm@Base 3.6.5+20210718-1
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St13unordered_setINS1_INS0_12SelectorListEEENS0_10ObjPtrHashENS0_14ObjPtrEqualityESaIS8_EEESaISD_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSF_18_Mod_range_hashingENSF_20_Default_ranged_hashENSF_20_Prime_rehash_policyENSF_17_Hashtable_traitsILb1ELb0ELb1EEEE12_Scoped_nodeD1Ev@Base 3.6.4-4~
- _ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St13unordered_setINS1_INS0_12SelectorListEEENS0_10ObjPtrHashENS0_14ObjPtrEqualityESaIS8_EEESaISD_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSF_18_Mod_range_hashingENSF_20_Default_ranged_hashENSF_20_Prime_rehash_policyENSF_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashEmRKm@Base 3.6.5+20210718-1
- _ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St6vectorINS0_9ExtensionESaIS7_EEESaISA_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSC_18_Mod_range_hashingENSC_20_Default_ranged_hashENSC_20_Prime_rehash_policyENSC_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashEmRKm@Base 3.6.5+20210718-1
- _ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_mESaIS6_ENSt8__detail10_Select1stENS0_14ObjPtrEqualityENS0_10ObjPtrHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashEmRKm@Base 3.6.5+20210718-1
- _ZNSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEES3_SaIS3_ENSt8__detail9_IdentityENS0_14ObjPtrEqualityENS0_10ObjPtrHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE9_M_rehashEmRKm@Base 3.6.5+20210718-1
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St13unordered_setINS1_INS0_12SelectorListEEENS0_10ObjPtrHashENS0_14ObjPtrEqualityESaIS8_EEESaISD_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSF_18_Mod_range_hashingENSF_20_Default_ranged_hashENSF_20_Prime_rehash_policyENSF_17_Hashtable_traitsILb1ELb0ELb1EEEE12_Scoped_nodeD2Ev@Base 3.6.4-4~
- _ZNSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEESt4pairIKS3_NS0_9ExtensionEESaIS7_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENS9_18_Mod_range_hashingENS9_20_Default_ranged_hashENS9_20_Prime_rehash_policyENS9_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashEmRKm@Base 3.6.5+20210718-1
+ (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St13unordered_setINS1_INS0_12SelectorListEEENS0_10ObjPtrHashENS0_14ObjPtrEqualityESaIS8_EEESaISD_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSF_18_Mod_range_hashingENSF_20_Default_ranged_hashENSF_20_Prime_rehash_policyENSF_17_Hashtable_traitsILb1ELb0ELb1EEEE21_M_insert_unique_nodeE{size_t}{size_t}PNSF_10_Hash_nodeISD_Lb1EEE{size_t}@Base 3.6.5+20211111
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St13unordered_setINS1_INS0_12SelectorListEEENS0_10ObjPtrHashENS0_14ObjPtrEqualityESaIS8_EEESaISD_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSF_18_Mod_range_hashingENSF_20_Default_ranged_hashENSF_20_Prime_rehash_policyENSF_17_Hashtable_traitsILb1ELb0ELb1EEEE5clearEv@Base 3.6.4-2~
+ (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St13unordered_setINS1_INS0_12SelectorListEEENS0_10ObjPtrHashENS0_14ObjPtrEqualityESaIS8_EEESaISD_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSF_18_Mod_range_hashingENSF_20_Default_ranged_hashENSF_20_Prime_rehash_policyENSF_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20211111
+ (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St6vectorINS0_9ExtensionESaIS7_EEESaISA_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSC_18_Mod_range_hashingENSC_20_Default_ranged_hashENSC_20_Prime_rehash_policyENSC_17_Hashtable_traitsILb1ELb0ELb1EEEE4findERS5_@Base 3.6.5+20211111
+ (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_St6vectorINS0_9ExtensionESaIS7_EEESaISA_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENSC_18_Mod_range_hashingENSC_20_Default_ranged_hashENSC_20_Prime_rehash_policyENSC_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20211111
+ (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_14SimpleSelectorEEESt4pairIKS3_{size_t}ESaIS6_ENSt8__detail10_Select1stENS0_14ObjPtrEqualityENS0_10ObjPtrHashENS8_18_Mod_range_hashingENS8_20_Default_ranged_hashENS8_20_Prime_rehash_policyENS8_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20211111
+ (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEES3_SaIS3_ENSt8__detail9_IdentityENS0_14ObjPtrEqualityENS0_10ObjPtrHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE4findERKS3_@Base 3.6.5+20211111
+ (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEES3_SaIS3_ENSt8__detail9_IdentityENS0_14ObjPtrEqualityENS0_10ObjPtrHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20211111
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEESt4pairIKS3_NS0_9ExtensionEESaIS7_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENS9_18_Mod_range_hashingENS9_20_Default_ranged_hashENS9_20_Prime_rehash_policyENS9_17_Hashtable_traitsILb1ELb0ELb1EEEE5clearEv@Base 3.6.4-2~
- (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEESt4pairIKS3_NS0_9ExtensionEESaIS7_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENS9_18_Mod_range_hashingENS9_20_Default_ranged_hashENS9_20_Prime_rehash_policyENS9_17_Hashtable_traitsILb1ELb0ELb1EEEED1Ev@Base 3.6.5+20210718-1
- _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEEC1IPKS5_EET_SM_mRKSC_RKSA_RKS6_St17integral_constantIbLb1EE@Base 3.6.5+20210718-1
+ (optional=templinst|subst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEESt4pairIKS3_NS0_9ExtensionEESaIS7_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENS9_18_Mod_range_hashingENS9_20_Default_ranged_hashENS9_20_Prime_rehash_policyENS9_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20211111
+ (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEESt4pairIKS3_NS0_9ExtensionEESaIS7_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENS9_18_Mod_range_hashingENS9_20_Default_ranged_hashENS9_20_Prime_rehash_policyENS9_17_Hashtable_traitsILb1ELb0ELb1EEEED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt10_HashtableIN4Sass10SharedImplINS0_15ComplexSelectorEEESt4pairIKS3_NS0_9ExtensionEESaIS7_ENSt8__detail10_Select1stENS0_11ObjEqualityENS0_7ObjHashENS9_18_Mod_range_hashingENS9_20_Default_ranged_hashENS9_20_Prime_rehash_policyENS9_17_Hashtable_traitsILb1ELb0ELb1EEEED2Ev@Base 3.6.4-2~
- _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEEC2IPKS5_EET_SM_mRKSC_RKSA_RKS6_St17integral_constantIbLb1EE@Base 3.6.5+20210718-1
- (optional=templinst|subst)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20210718-1
- _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEED1Ev@Base 3.6.5+20210718-1
- _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEED2Ev@Base 3.6.5+20210718-1
- _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEEC1IPKSC_EET_ST_mRKSJ_RKSH_RKSD_St17integral_constantIbLb1EE@Base 3.6.5+20210718-1
- (optional=templinst|subst|arch=!amd64 !arm64 !hppa !sh4 !x32)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEEC1IPKS5_EET_SM_{size_t}RKSC_RKSD_RKSE_RKSA_RKS8_RKS6_@Base 3.6.4-2~
- _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEEC2IPKSC_EET_ST_mRKSJ_RKSH_RKSD_St17integral_constantIbLb1EE@Base 3.6.5+20210718-1
- (optional=templinst|subst|arch=!amd64 !arm64 !hppa !sh4 !x32)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEEC2IPKS5_EET_SM_{size_t}RKSC_RKSD_RKSE_RKSA_RKS8_RKS6_@Base 3.6.4-2~
- _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEED1Ev@Base 3.6.5+20210718-1
- _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEED2Ev@Base 3.6.5+20210718-1
- (optional=templinst|subst)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20210718-1
- (optional=templinst|subst|arch=!amd64 !arm64 !hppa !sh4 !x32)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEEC1IPKSC_EET_ST_{size_t}RKSJ_RKSK_RKSL_RKSH_RKSF_RKSD_@Base 3.6.4-2~
- (optional=templinst|subst|arch=!amd64 !arm64 !hppa !sh4 !x32)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEEC2IPKSC_EET_ST_{size_t}RKSJ_RKSK_RKSL_RKSH_RKSF_RKSD_@Base 3.6.4-2~
+ (optional=templinst|subst)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20211111
+ (optional=templinst|arch=amd64 arm64 sh4 x32|subst)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEEC1ESt16initializer_listIS5_E{size_t}RKSC_RKSA_RKS6_@Base 3.6.5+20211111
+ (optional=templinst|subst|arch=!amd64 !arm64 !sh4 !x32)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEEC1IPKS5_EET_SM_{size_t}RKSC_RKSA_RKS6_St17integral_constantIbLb1EE@Base 3.6.5+20211111
+ (optional=templinst|arch=amd64 arm64 sh4 x32|subst)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEEC2ESt16initializer_listIS5_E{size_t}RKSC_RKSA_RKS6_@Base 3.6.5+20211111
+ (optional=templinst|subst|arch=!amd64 !arm64 !sh4 !x32)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEEC2IPKS5_EET_SM_{size_t}RKSC_RKSA_RKS6_St17integral_constantIbLb1EE@Base 3.6.5+20211111
+ (optional=templinst)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEED1Ev@Base 3.6.5+20211111
+ (optional=templinst)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_ENSt8__detail9_IdentityESt8equal_toIS5_ESt4hashIS5_ENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_policyENS7_17_Hashtable_traitsILb1ELb1ELb1EEEED2Ev@Base 3.6.5+20211111
+ (optional=templinst|subst|arch=!armel !armhf)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.5+20211111
+ (optional=templinst|arch=amd64 arm64 hppa sh4 x32|subst)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEEC1ESt16initializer_listISC_E{size_t}RKSJ_RKSH_RKSD_@Base 3.6.5+20211111
+ (optional=templinst|subst|arch=!amd64 !arm64 !hppa !sh4 !x32)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEEC1IPKSC_EET_ST_{size_t}RKSJ_RKSH_RKSD_St17integral_constantIbLb1EE@Base 3.6.5+20211111
+ (optional=templinst|arch=amd64 arm64 hppa sh4 x32|subst)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEEC2ESt16initializer_listISC_E{size_t}RKSJ_RKSH_RKSD_@Base 3.6.5+20211111
+ (optional=templinst|subst|arch=!amd64 !arm64 !hppa !sh4 !x32)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEEC2IPKSC_EET_ST_{size_t}RKSJ_RKSH_RKSD_St17integral_constantIbLb1EE@Base 3.6.5+20211111
+ (optional=templinst)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEED1Ev@Base 3.6.5+20211111
+ (optional=templinst)_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PKN4Sass10Color_RGBAEESaISC_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSE_18_Mod_range_hashingENSE_20_Default_ranged_hashENSE_20_Prime_rehash_policyENSE_17_Hashtable_traitsILb1ELb0ELb1EEEED2Ev@Base 3.6.5+20211111
  (optional=templinst|subst)_ZNSt10_HashtableIPKN4Sass14SimpleSelectorES3_SaIS3_ENSt8__detail9_IdentityENS0_14PtrObjEqualityENS0_10PtrObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.4-2~
  (optional=templinst)_ZNSt10_HashtableIPKN4Sass14SimpleSelectorES3_SaIS3_ENSt8__detail9_IdentityENS0_14PtrObjEqualityENS0_10PtrObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt10_HashtableIPKN4Sass14SimpleSelectorES3_SaIS3_ENSt8__detail9_IdentityENS0_14PtrObjEqualityENS0_10PtrObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEED2Ev@Base 3.6.4-2~
  (optional=templinst|subst)_ZNSt10_HashtableIPKN4Sass15ComplexSelectorES3_SaIS3_ENSt8__detail9_IdentityENS0_14PtrObjEqualityENS0_10PtrObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE9_M_rehashE{size_t}RK{size_t}@Base 3.6.4-2~
  (optional=templinst)_ZNSt10_HashtableIPKN4Sass15ComplexSelectorES3_SaIS3_ENSt8__detail9_IdentityENS0_14PtrObjEqualityENS0_10PtrObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt10_HashtableIPKN4Sass15ComplexSelectorES3_SaIS3_ENSt8__detail9_IdentityENS0_14PtrObjEqualityENS0_10PtrObjHashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEED2Ev@Base 3.6.4-2~
- (optional=templinst|subst)_ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEEC1IPKS4_EET_SL_{size_t}RKSB_RKSC_RKSD_RKS9_RKS7_RKS5_@Base 3.6.5+20210718-1
- (optional=templinst|subst)_ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEEC2IPKS4_EET_SL_{size_t}RKSB_RKSC_RKSD_RKS9_RKS7_RKS5_@Base 3.6.5+20210718-1
- _ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEEC1IPKS4_EET_SL_mRKSB_RKS9_RKS5_St17integral_constantIbLb1EE@Base 3.6.5+20210718-1
- _ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEEC2IPKS4_EET_SL_mRKSB_RKS9_RKS5_St17integral_constantIbLb1EE@Base 3.6.5+20210718-1
- _ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEED1Ev@Base 3.6.5+20210718-1
- _ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEED2Ev@Base 3.6.5+20210718-1
+ (optional=templinst|arch=amd64 arm64 hppa sh4 x32|subst)_ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEEC1ESt16initializer_listIS4_E{size_t}RKSB_RKS9_RKS5_@Base 3.6.5+20220909
+ (optional=templinst|subst|arch=!amd64 !arm64 !hppa !sh4 !x32)_ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEEC1IPKS4_EET_SL_{size_t}RKSB_RKS9_RKS5_St17integral_constantIbLb1EE@Base 3.6.5+20211111
+ (optional=templinst|arch=amd64 arm64 hppa sh4 x32|subst)_ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEEC2ESt16initializer_listIS4_E{size_t}RKSB_RKS9_RKS5_@Base 3.6.5+20220909
+ (optional=templinst|subst|arch=!amd64 !arm64 !hppa !sh4 !x32)_ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEEC2IPKS4_EET_SL_{size_t}RKSB_RKS9_RKS5_St17integral_constantIbLb1EE@Base 3.6.5+20211111
+ (optional=templinst)_ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEED1Ev@Base 3.6.5+20211111
+ (optional=templinst)_ZNSt10_HashtableIiSt4pairIKiPKcESaIS4_ENSt8__detail10_Select1stESt8equal_toIiESt4hashIiENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEED2Ev@Base 3.6.5+20211111
  (optional=templinst)_ZNSt11__copy_moveILb0ELb0ESt26random_access_iterator_tagE8__copy_mIPKN4Sass9ExtensionEPS4_EET0_T_S9_S8_@Base 3.6.4-4~
- (optional=templinst)_ZNSt12_Destroy_auxILb0EE9__destroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEvT_S9_@Base 3.6.4-4~
- _ZNSt20__uninitialized_copyILb0EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPSt6vectorIN4Sass9ExtensionESaIS6_EES4_IS8_SaIS8_EEEES9_EET0_T_SE_SD_@Base 3.6.5+20210718-1
+ (optional=templinst)_ZNSt12_Destroy_auxILb0EE9__destroyIPN4Sass7IncludeEEEvT_S5_@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Destroy_auxILb0EE9__destroyIPN4Sass9BacktraceEEEvT_S5_@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Destroy_auxILb0EE9__destroyIPSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4Sass10SharedImplINS9_13Function_CallEEEEEEvT_SF_@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseIN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseIN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EED2Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseIN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseIN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EED2Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseIN4Sass9BacktraceESaIS1_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseIN4Sass9BacktraceESaIS1_EED2Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseIN4Sass9ExtensionESaIS1_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseIN4Sass9ExtensionESaIS1_EED2Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseISt6vectorIN4Sass10SharedImplINS1_17SelectorComponentEEESaIS4_EESaIS6_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseISt6vectorIN4Sass10SharedImplINS1_17SelectorComponentEEESaIS4_EESaIS6_EED2Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseISt6vectorIS0_IN4Sass10SharedImplINS1_17SelectorComponentEEESaIS4_EESaIS6_EESaIS8_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt12_Vector_baseISt6vectorIS0_IN4Sass10SharedImplINS1_17SelectorComponentEEESaIS4_EESaIS6_EESaIS8_EED2Ev@Base 3.6.5+20220909
  (optional=templinst|subst)_ZNSt23mersenne_twister_engineI{size_t}L{size_t}32EL{size_t}624EL{size_t}397EL{size_t}31EL{size_t}2567483615EL{size_t}11EL{size_t}4294967295EL{size_t}7EL{size_t}2636928640EL{size_t}15EL{size_t}4022730752EL{size_t}18EL{size_t}1812433253EE11_M_gen_randEv@Base 3.6.4-4~
  (optional=templinst)_ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4Sass10SharedImplINS6_8AST_NodeEEESt4lessIS5_ESaISt4pairIKS5_S9_EEEixERSD_@Base 3.6.4
- (optional=templinst)_ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4Sass10StyleSheetEED1Ev@Base 3.5.5-4~
- (optional=templinst)_ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4Sass10StyleSheetEED2Ev@Base 3.5.5-4~
- (optional=templinst)_ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4Sass10SharedImplINS6_13Function_CallEEEED1Ev@Base 3.5.5-4~
- (optional=templinst)_ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4Sass10SharedImplINS6_13Function_CallEEEED2Ev@Base 3.5.5-4~
  (optional=templinst)_ZNSt5dequeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorI11Sass_CalleeSaIS0_EE12emplace_backIJS0_EEEvDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorI11Sass_CalleeSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 3.5.5-4~
@@ -4784,7 +4494,7 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_10ExpressionEEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_10ExpressionEEESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.5.5-4~
  (optional=templinst|subst)_ZNSt6vectorIN4Sass10SharedImplINS0_10ExpressionEEESaIS3_EE7reserveE{size_t}@Base 3.5.5-4~
- (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_10ExpressionEEESaIS3_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS3_S5_EE@Base 3.5.5-4~
+ (optional=templinst|arch=!alpha !hurd-i386 !i386 !mipsel !powerpc !ppc64 !s390x)_ZNSt6vectorIN4Sass10SharedImplINS0_10ExpressionEEESaIS3_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS3_S5_EE@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_10ExpressionEEESaIS3_EED1Ev@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_10ExpressionEEESaIS3_EED2Ev@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_12CssMediaRuleEEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.6.4-2~
@@ -4805,9 +4515,10 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_14SimpleSelectorEEESaIS3_EE6insertEN9__gnu_cxx17__normal_iteratorIPKS3_S5_EERS8_@Base 3.6.4-4~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_14SimpleSelectorEEESaIS3_EED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_14SimpleSelectorEEESaIS3_EED2Ev@Base 3.6.4-2~
+ (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EE12emplace_backIJS3_EEEvDpOT_@Base 3.6.5+20220909
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EE13_M_insert_auxIS3_EEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEOT_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.6.4-2~
- (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.6.4-2~
+ (optional=templinst|arch=!alpha !armel !armhf !i386 !mipsel !powerpc !ppc64 !s390x)_ZNSt6vectorIN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EE6insertEN9__gnu_cxx17__normal_iteratorIPKS3_S5_EERS8_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EE9push_backERKS3_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EEC1ERKS5_@Base 3.6.4-2~
@@ -4820,7 +4531,7 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EE14_M_insert_rvalEN9__gnu_cxx17__normal_iteratorIPKS3_S5_EEOS3_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.6.4-2~
- (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS3_S5_EE@Base 3.6.4-2~
+ (optional=templinst|arch=!alpha !hurd-i386 !i386 !mipsel !powerpc !ppc64 !s390x)_ZNSt6vectorIN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS3_S5_EE@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EEC1ESt16initializer_listIS3_ERKS4_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EEC2ESt16initializer_listIS3_ERKS4_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EED1Ev@Base 3.6.4-2~
@@ -4828,7 +4539,10 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_22Media_Query_ExpressionEEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.5.5-4~
  (optional=templinst|subst)_ZNSt6vectorIN4Sass10SharedImplINS0_22Media_Query_ExpressionEEESaIS3_EE7reserveE{size_t}@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_5BlockEEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.5.5-4~
+ (optional=templinst|arch=amd64 arm64 hppa sh4)_ZNSt6vectorIN4Sass10SharedImplINS0_8AST_NodeEEESaIS3_EE12emplace_backIJS3_EEEvDpOT_@Base 3.6.5+20220909
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_8AST_NodeEEESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.5.5-4~
+ (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_8AST_NodeEEESaIS3_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_8AST_NodeEEESaIS3_EED2Ev@Base 3.6.5+20220909
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_8ArgumentEEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIN4Sass10SharedImplINS0_8PreValueEEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.6.4
  (optional=templinst|subst)_ZNSt6vectorIN4Sass10SharedImplINS0_8PreValueEEESaIS3_EE7reserveE{size_t}@Base 3.6.4-2~
@@ -4844,7 +4558,11 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZNSt6vectorIN4Sass7IncludeESaIS1_EED2Ev@Base 3.5.5-4~
  (optional=templinst|arch=!amd64 !hppa !x32)_ZNSt6vectorIN4Sass7MappingESaIS1_EE12emplace_backIJS1_EEEvDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIN4Sass7MappingESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 3.5.5-4~
+ (optional=templinst)_ZNSt6vectorIN4Sass7MappingESaIS1_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt6vectorIN4Sass7MappingESaIS1_EED2Ev@Base 3.6.5+20220909
  (optional=templinst)_ZNSt6vectorIN4Sass7OperandESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 3.5.5-4~
+ (optional=templinst)_ZNSt6vectorIN4Sass7OperandESaIS1_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt6vectorIN4Sass7OperandESaIS1_EED2Ev@Base 3.6.5+20220909
  (optional=templinst)_ZNSt6vectorIN4Sass8ResourceESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIN4Sass9BacktraceESaIS1_EE12emplace_backIJS1_EEEvDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIN4Sass9BacktraceESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 3.5.5-4~
@@ -4858,12 +4576,11 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZNSt6vectorIN4Sass9ExtensionESaIS1_EEC2ERKS3_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass9ExtensionESaIS1_EED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIN4Sass9ExtensionESaIS1_EED2Ev@Base 3.6.4-2~
- (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 3.5.5-4~
+ (optional=templinst|arch=armel armhf)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE6insertIN9__gnu_cxx17__normal_iteratorIPS5_S7_EEvEESC_NSA_IPKS5_S7_EET_SG_@Base 3.6.4-2~
- (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS5_S7_EE@Base 3.5.5-4~
- (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS5_S7_EESB_@Base 3.5.5-4~
+ (optional=templinst|arch=!alpha !hurd-i386 !i386 !mipsel !powerpc !ppc64 !s390x)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS5_S7_EE@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC1ERKS7_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC2ERKS7_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev@Base 3.5.5-4~
@@ -4871,7 +4588,11 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEaSERKS7_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIP11Sass_ImportSaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIP13Sass_FunctionSaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 3.5.5-4~
+ (optional=templinst)_ZNSt6vectorIP13Sass_FunctionSaIS1_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt6vectorIP13Sass_FunctionSaIS1_EED2Ev@Base 3.6.5+20220909
  (optional=templinst)_ZNSt6vectorIP13Sass_ImporterSaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 3.5.5-4~
+ (optional=templinst)_ZNSt6vectorIP13Sass_ImporterSaIS1_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt6vectorIP13Sass_ImporterSaIS1_EED2Ev@Base 3.6.5+20220909
  (optional=templinst)_ZNSt6vectorIPKN4Sass14SimpleSelectorESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIPN4Sass11EnvironmentINS0_10SharedImplINS0_8AST_NodeEEEEESaIS6_EE17_M_realloc_insertIJRKS6_EEEvN9__gnu_cxx17__normal_iteratorIPS6_S8_EEDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIPN4Sass11EnvironmentINS0_10SharedImplINS0_8AST_NodeEEEEESaIS6_EE17_M_realloc_insertIJS6_EEEvN9__gnu_cxx17__normal_iteratorIPS6_S8_EEDpOT_@Base 3.5.5-4~
@@ -4879,12 +4600,12 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZNSt6vectorIPN4Sass8AST_NodeESaIS2_EE17_M_realloc_insertIJS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIPN4Sass9StatementESaIS2_EE17_M_realloc_insertIJRKS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorIPN4Sass9StatementESaIS2_EE17_M_realloc_insertIJS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 3.5.5-4~
+ (optional=templinst)_ZNSt6vectorIPN4Sass9StatementESaIS2_EED1Ev@Base 3.6.5+20220909
+ (optional=templinst)_ZNSt6vectorIPN4Sass9StatementESaIS2_EED2Ev@Base 3.6.5+20220909
  (optional=templinst)_ZNSt6vectorIPcSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 3.5.5-4~
- _ZNSt6vectorIS_IN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 3.6.5+20210718-1
- (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 3.6.5+20210718-1
- (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EESaIS5_EE17_M_realloc_insertIJS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 3.6.5+20210718-1
- (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EESaIS5_EE9push_backERKS5_@Base 3.6.4-4~
- (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EESaIS5_EE9push_backERKS5_@Base 3.6.4-4~
+ (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 3.6.5+20211111
+ (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 3.6.4-2~
+ (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EESaIS5_EE9push_backERKS5_@Base 3.6.5+20220909
  (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EESaIS5_EED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_15ComplexSelectorEEESaIS3_EESaIS5_EED2Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 3.6.4-2~
@@ -4892,21 +4613,21 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EE14_M_insert_rvalEN9__gnu_cxx17__normal_iteratorIPKS5_S7_EEOS5_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EE17_M_realloc_insertIJS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 3.6.4-2~
- (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS5_S7_EE@Base 3.6.4-2~
- (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EEC1ERKS7_@Base 3.6.4-4~
+ (optional=templinst|arch=!alpha !hurd-i386 !i386 !mipsel !powerpc !ppc64 !s390x)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS5_S7_EE@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EEC1ESt16initializer_listIS5_ERKS6_@Base 3.6.4-2~
- (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EEC2ERKS7_@Base 3.6.4-4~
  (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EEC2ESt16initializer_listIS5_ERKS6_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EED2Ev@Base 3.6.4-2~
- _ZNSt6vectorIS_IN4Sass9ExtensionESaIS1_EESaIS3_EE12emplace_backIJS3_EEEvDpOT_@Base 3.6.5+20210718-1
+ (optional=templinst)_ZNSt6vectorIS_IN4Sass9ExtensionESaIS1_EESaIS3_EE12emplace_backIJS3_EEEvDpOT_@Base 3.6.5+20211111
  (optional=templinst)_ZNSt6vectorIS_IN4Sass9ExtensionESaIS1_EESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.6.4-2~
- (optional=templinst)_ZNSt6vectorIS_IN4Sass9ExtensionESaIS1_EESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 3.6.5+20210718-1
  (optional=templinst)_ZNSt6vectorIS_IN4Sass9ExtensionESaIS1_EESaIS3_EED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IN4Sass9ExtensionESaIS1_EESaIS3_EED2Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EESaIS7_EE12emplace_backIJS7_EEEvDpOT_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EESaIS7_EE17_M_realloc_insertIJRKS7_EEEvN9__gnu_cxx17__normal_iteratorIPS7_S9_EEDpOT_@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EESaIS7_EE17_M_realloc_insertIJS7_EEEvN9__gnu_cxx17__normal_iteratorIPS7_S9_EEDpOT_@Base 3.6.4-2~
+ (optional=templinst|arch=alpha armel armhf i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sparc64)_ZNSt6vectorIS_IS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EESaIS7_EE9push_backERKS7_@Base 3.6.5+20211111
+ (optional=templinst|arch=amd64 arm64 hppa sh4 x32)_ZNSt6vectorIS_IS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EESaIS7_EEC1ESt16initializer_listIS7_ERKS8_@Base 3.6.5+20211111
+ (optional=templinst|arch=amd64 arm64 hppa sh4 x32)_ZNSt6vectorIS_IS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EESaIS7_EEC2ESt16initializer_listIS7_ERKS8_@Base 3.6.5+20211111
  (optional=templinst)_ZNSt6vectorIS_IS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EESaIS7_EED1Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorIS_IS_IN4Sass10SharedImplINS0_17SelectorComponentEEESaIS3_EESaIS5_EESaIS7_EED2Ev@Base 3.6.4-2~
  (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4Sass10SharedImplINS7_13Function_CallEEEESaISB_EE12emplace_backIJSB_EEEvDpOT_@Base 3.5.5-4~
@@ -4916,50 +4637,59 @@ libsass.so.1 libsass1 #MINVER#
  (optional=templinst)_ZNSt6vectorISt4pairIbN4Sass10SharedImplINS1_5BlockEEEESaIS5_EE17_M_realloc_insertIJS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorISt4pairIbN4Sass10SharedImplINS1_5BlockEEEESaIS5_EED1Ev@Base 3.5.5-4~
  (optional=templinst)_ZNSt6vectorISt4pairIbN4Sass10SharedImplINS1_5BlockEEEESaIS5_EED2Ev@Base 3.5.5-4~
- (optional=templinst)_ZNSt6vectorIcSaIcEE17_M_realloc_insertIJRKcEEEvN9__gnu_cxx17__normal_iteratorIPcS1_EEDpOT_@Base 3.6.5+20210718-1
+ (optional=templinst)_ZNSt6vectorIcSaIcEE17_M_realloc_insertIJRKcEEEvN9__gnu_cxx17__normal_iteratorIPcS1_EEDpOT_@Base 3.6.5+20220909
  (optional=templinst|subst)_ZNSt6vectorI{size_t}SaI{size_t}EE17_M_realloc_insertIJRK{size_t}EEEvN9__gnu_cxx17__normal_iteratorIP{size_t}S1_EEDpOT_@Base 3.5.5-4~
- (optional=templinst)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag@Base 3.5.5-4~
+ (optional=templinst|subst)_ZNSt6vectorI{size_t}SaI{size_t}EED1Ev@Base 3.6.5+20220909
+ (optional=templinst|subst)_ZNSt6vectorI{size_t}SaI{size_t}EED2Ev@Base 3.6.5+20220909
  (optional=templinst)_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 3.5.5-4~
  (optional=templinst)_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 3.5.5-4~
  (optional=templinst)_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 3.5.5-4~
- (optional=templinst)_ZNSt8_Rb_treeIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIS6_N4Sass10StyleSheetEESt10_Select1stISA_ESt4lessIS6_ESaISA_EE17_M_emplace_uniqueIJRSA_EEES7_ISt17_Rb_tree_iteratorISA_EbEDpOT_@Base 3.5.5-4~
- (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_8AST_NodeEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE11equal_rangeERS7_@Base 3.5.5-4~
+ (optional=templinst|arch=!alpha !i386 !mipsel !powerpc !ppc64 !s390x)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_8AST_NodeEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE11equal_rangeERS7_@Base 3.5.5-4~
  (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_8AST_NodeEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE24_M_get_insert_unique_posERS7_@Base 3.5.5-4~
- (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_8AST_NodeEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorISC_ERS7_@Base 3.5.5-4~
- (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_8AST_NodeEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE8_M_eraseEPSt13_Rb_tree_nodeISC_E@Base 3.5.5-4~
+ (optional=templinst|arch=!alpha !armel !armhf !hurd-i386 !i386 !mipsel !powerpc !ppc64 !s390x)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_8AST_NodeEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorISC_ERS7_@Base 3.5.5-4~
+ (optional=templinst|arch=!amd64 !arm64 !hppa !sh4 !x32)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_8AST_NodeEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE4findERS7_@Base 3.6.5+20211111
  (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_9ParameterEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE24_M_get_insert_unique_posERS7_@Base 3.5.5-4~
- (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_9ParameterEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorISC_ERS7_@Base 3.5.5-4~
+ (optional=templinst|arch=!alpha !armel !armhf !hurd-i386 !i386 !mipsel !powerpc !ppc64 !s390x)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N4Sass10SharedImplINS8_9ParameterEEEESt10_Select1stISC_ESt4lessIS5_ESaISC_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorISC_ERS7_@Base 3.5.5-4~
  (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_iESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_@Base 3.5.5-4~
- (optional=templinst)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_iESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS8_ERS7_@Base 3.5.5-4~
+ (optional=templinst|arch=!alpha !armel !armhf !hurd-i386 !i386 !mipsel !powerpc !ppc64 !s390x)_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_iESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS8_ERS7_@Base 3.5.5-4~
  (optional=templinst)_ZNSt8__detail17_ReuseOrAllocNodeISaINS_10_Hash_nodeISt4pairIKN4Sass10SharedImplINS3_10ExpressionEEES6_ELb1EEEEED1Ev@Base 3.6.4-4~
  (optional=templinst)_ZNSt8__detail17_ReuseOrAllocNodeISaINS_10_Hash_nodeISt4pairIKN4Sass10SharedImplINS3_10ExpressionEEES6_ELb1EEEEED2Ev@Base 3.6.4-4~
  (optional=templinst)_ZNSt8__detail9_Map_baseIN4Sass10SharedImplINS1_10ExpressionEEESt4pairIKS4_S4_ESaIS7_ENS_10_Select1stENS1_15ObjHashEqualityENS1_7ObjHashENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb1ELb0ELb1EEELb1EEixERS6_@Base 3.6.4+20201122
  (optional=templinst)_ZNSt8__detail9_Map_baseIN4Sass10SharedImplINS1_12SelectorListEEESt4pairIKS4_NS2_INS1_12CssMediaRuleEEEESaIS9_ENS_10_Select1stENS1_14ObjPtrEqualityENS1_10ObjPtrHashENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb1ELb0ELb1EEELb1EEixERS6_@Base 3.6.4-2~
  (optional=templinst)_ZNSt8__detail9_Map_baseIN4Sass10SharedImplINS1_14SimpleSelectorEEESt4pairIKS4_NS1_11ordered_mapINS2_INS1_15ComplexSelectorEEENS1_9ExtensionENS1_7ObjHashENS1_11ObjEqualityESaIS5_IKS9_SA_EEEEESaISH_ENS_10_Select1stESC_SB_NS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb1ELb0ELb1EEELb1EEixERS6_@Base 3.6.4-2~
  (optional=templinst)_ZNSt8__detail9_Map_baseIN4Sass10SharedImplINS1_14SimpleSelectorEEESt4pairIKS4_St13unordered_setINS2_INS1_12SelectorListEEENS1_10ObjPtrHashENS1_14ObjPtrEqualityESaIS9_EEESaISE_ENS_10_Select1stENS1_11ObjEqualityENS1_7ObjHashENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb1ELb0ELb1EEELb1EEixEOS4_@Base 3.6.4-4~
- (optional=templinst)_ZNSt8__detail9_Map_baseIN4Sass10SharedImplINS1_14SimpleSelectorEEESt4pairIKS4_St13unordered_setINS2_INS1_12SelectorListEEENS1_10ObjPtrHashENS1_14ObjPtrEqualityESaIS9_EEESaISE_ENS_10_Select1stENS1_11ObjEqualityENS1_7ObjHashENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb1ELb0ELb1EEELb1EEixERS6_@Base 3.6.4-4~
- (optional=templinst)_ZNSt8__detail9_Map_baseIN4Sass10SharedImplINS1_14SimpleSelectorEEESt4pairIKS4_St6vectorINS1_9ExtensionESaIS8_EEESaISB_ENS_10_Select1stENS1_11ObjEqualityENS1_7ObjHashENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb1ELb0ELb1EEELb1EEixERS6_@Base 3.6.4-2~
- (optional=templinst|subst)_ZNSt8__detail9_Map_baseIN4Sass10SharedImplINS1_14SimpleSelectorEEESt4pairIKS4_{size_t}ESaIS7_ENS_10_Select1stENS1_14ObjPtrEqualityENS1_10ObjPtrHashENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb1ELb0ELb1EEELb1EEixERS6_@Base 3.6.5+20210718-1
+ (optional=templinst)_ZNSt8__detail9_Map_baseIN4Sass10SharedImplINS1_14SimpleSelectorEEESt4pairIKS4_St13unordered_setINS2_INS1_12SelectorListEEENS1_10ObjPtrHashENS1_14ObjPtrEqualityESaIS9_EEESaISE_ENS_10_Select1stENS1_11ObjEqualityENS1_7ObjHashENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb1ELb0ELb1EEELb1EEixERS6_@Base 3.6.4-2~
+ (optional=templinst)_ZNSt8__detail9_Map_baseIN4Sass10SharedImplINS1_14SimpleSelectorEEESt4pairIKS4_St6vectorINS1_9ExtensionESaIS8_EEESaISB_ENS_10_Select1stENS1_11ObjEqualityENS1_7ObjHashENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb1ELb0ELb1EEELb1EEixERS6_@Base 3.6.4-4~
  (optional=templinst)_ZNSt8__detail9_Map_baseIN4Sass10SharedImplINS1_15ComplexSelectorEEESt4pairIKS4_NS1_9ExtensionEESaIS8_ENS_10_Select1stENS1_11ObjEqualityENS1_7ObjHashENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb1ELb0ELb1EEELb1EEixERS6_@Base 3.6.4-2~
  (optional=templinst)_ZSt11__make_heapIN9__gnu_cxx17__normal_iteratorIPN4Sass10SharedImplINS2_14SimpleSelectorEEESt6vectorIS5_SaIS5_EEEENS0_5__ops15_Iter_comp_iterIPFbPS4_SD_EEEEvT_SH_RT0_@Base 3.6.4-2~
- (optional=templinst)_ZSt11__remove_ifIN9__gnu_cxx17__normal_iteratorIPSt6vectorIS2_IN4Sass10SharedImplINS3_17SelectorComponentEEESaIS6_EESaIS8_EES2_ISA_SaISA_EEEENS0_5__ops10_Iter_predIPFbRKSA_EEEET_SM_SM_T0_@Base 3.6.5+20210718-1
+ (optional=templinst|arch=alpha hurd-i386 i386 mipsel powerpc ppc64 s390x)_ZSt11__remove_ifIN9__gnu_cxx17__normal_iteratorIPSt6vectorIS2_IN4Sass10SharedImplINS3_17SelectorComponentEEESaIS6_EESaIS8_EES2_ISA_SaISA_EEEENS0_5__ops10_Iter_predIPFbRKSA_EEEET_SM_SM_T0_@Base 3.6.4-4~
  (optional=templinst|subst)_ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPN4Sass10SharedImplINS2_14SimpleSelectorEEESt6vectorIS5_SaIS5_EEEE{ssize_t}S5_NS0_5__ops15_Iter_comp_iterIPFbPS4_SD_EEEEvT_T0_SI_T1_T2_@Base 3.6.4-2~
  (optional=templinst|subst)_ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPP13Sass_ImporterSt6vectorIS3_SaIS3_EEEE{ssize_t}S3_NS0_5__ops15_Iter_comp_iterIPFbRKS3_SC_EEEEvT_T0_SH_T1_T2_@Base 3.5.5-4~
  (optional=templinst)_ZSt13__copy_move_aILb1EN9__gnu_cxx17__normal_iteratorIPSt6vectorIS2_IN4Sass10SharedImplINS3_17SelectorComponentEEESaIS6_EESaIS8_EES2_ISA_SaISA_EEEESt15insert_iteratorISD_EET1_T0_SI_SH_@Base 3.6.4-4~
+ (optional=templinst)_ZSt13__heap_selectIN9__gnu_cxx17__normal_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS7_SaIS7_EEEENS0_5__ops15_Iter_less_iterEEvT_SF_SF_T0_@Base 3.6.5+20220909
+ (optional=templinst)_ZSt16__do_uninit_copyIN9__gnu_cxx17__normal_iteratorIPKN4Sass9BacktraceESt6vectorIS3_SaIS3_EEEEPS3_ET0_T_SC_SB_@Base 3.6.5+20211111
+ (optional=templinst)_ZSt16__do_uninit_copyIN9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS7_SaIS7_EEEEPS7_ET0_T_SG_SF_@Base 3.6.5+20211111
+ (optional=templinst)_ZSt16__do_uninit_copyIN9__gnu_cxx17__normal_iteratorIPKSt6vectorIN4Sass10SharedImplINS3_17SelectorComponentEEESaIS6_EES2_IS8_SaIS8_EEEEPS8_ET0_T_SG_SF_@Base 3.6.5+20211111
+ (optional=templinst)_ZSt16__do_uninit_copyIN9__gnu_cxx17__normal_iteratorIPN4Sass7IncludeESt6vectorIS3_SaIS3_EEEES4_ET0_T_SA_S9_@Base 3.6.5+20211111
+ (optional=templinst)_ZSt16__do_uninit_copyIN9__gnu_cxx17__normal_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS7_SaIS7_EEEES8_ET0_T_SE_SD_@Base 3.6.5+20211111
+ (optional=templinst)_ZSt16__do_uninit_copyIN9__gnu_cxx17__normal_iteratorIPSt6vectorIN4Sass9ExtensionESaIS4_EES2_IS6_SaIS6_EEEES7_ET0_T_SC_SB_@Base 3.6.5+20211111
+ (optional=templinst)_ZSt16__do_uninit_copyIPKN4Sass10SharedImplINS0_14SimpleSelectorEEEPS3_ET0_T_S8_S7_@Base 3.6.5+20211111
+ (optional=templinst)_ZSt16__do_uninit_copyIPKN4Sass10SharedImplINS0_15ComplexSelectorEEEPS3_ET0_T_S8_S7_@Base 3.6.5+20211111
+ (optional=templinst)_ZSt16__do_uninit_copyIPKN4Sass9BacktraceEPS1_ET0_T_S6_S5_@Base 3.6.5+20211111
+ (optional=templinst)_ZSt16__do_uninit_copyIPKPKcPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEET0_T_SC_SB_@Base 3.6.5+20220909
+ (optional=templinst)_ZSt16__do_uninit_copyIPKSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN4Sass10SharedImplINS7_13Function_CallEEEEPSB_ET0_T_SG_SF_@Base 3.6.5+20211111
  (optional=templinst)_ZSt16__insertion_sortIN9__gnu_cxx17__normal_iteratorIPN4Sass10SharedImplINS2_14SimpleSelectorEEESt6vectorIS5_SaIS5_EEEENS0_5__ops15_Iter_comp_iterIPFbPS4_SD_EEEEvT_SH_T0_@Base 3.6.4-2~
- (optional=templinst)_ZSt16__insertion_sortIN9__gnu_cxx17__normal_iteratorIPP13Sass_ImporterSt6vectorIS3_SaIS3_EEEENS0_5__ops15_Iter_comp_iterIPFbRKS3_SC_EEEEvT_SG_T0_@Base 3.6.4-4~
+ (optional=templinst)_ZSt16__insertion_sortIN9__gnu_cxx17__normal_iteratorIPP13Sass_ImporterSt6vectorIS3_SaIS3_EEEENS0_5__ops15_Iter_comp_iterIPFbRKS3_SC_EEEEvT_SG_T0_@Base 3.5.5-4~
  (optional=templinst|subst)_ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPN4Sass10SharedImplINS2_14SimpleSelectorEEESt6vectorIS5_SaIS5_EEEE{ssize_t}NS0_5__ops15_Iter_comp_iterIPFbPS4_SD_EEEEvT_SH_T0_T1_@Base 3.6.4-2~
  (optional=templinst|subst)_ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPP13Sass_ImporterSt6vectorIS3_SaIS3_EEEE{ssize_t}NS0_5__ops15_Iter_comp_iterIPFbRKS3_SC_EEEEvT_SG_T0_T1_@Base 3.5.5-4~
  (optional=templinst|subst)_ZSt18generate_canonicalIdL{size_t}53ESt23mersenne_twister_engineI{size_t}L{size_t}32EL{size_t}624EL{size_t}397EL{size_t}31EL{size_t}2567483615EL{size_t}11EL{size_t}4294967295EL{size_t}7EL{size_t}2636928640EL{size_t}15EL{size_t}4022730752EL{size_t}18EL{size_t}1812433253EEET_RT1_@Base 3.5.5-4~
  (optional=templinst)_ZSt22__final_insertion_sortIN9__gnu_cxx17__normal_iteratorIPP13Sass_ImporterSt6vectorIS3_SaIS3_EEEENS0_5__ops15_Iter_comp_iterIPFbRKS3_SC_EEEEvT_SG_T0_@Base 3.5.5-4~
  (optional=templinst)_ZSt25__unguarded_linear_insertIN9__gnu_cxx17__normal_iteratorIPN4Sass10SharedImplINS2_14SimpleSelectorEEESt6vectorIS5_SaIS5_EEEENS0_5__ops14_Val_comp_iterIPFbPS4_SD_EEEEvT_T0_@Base 3.6.4-2~
  (optional=templinst)_ZSt4swapIN4Sass10SharedImplINS0_14SimpleSelectorEEEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS8_ESt18is_move_assignableIS8_EEE5valueEvE4typeERS8_SI_@Base 3.6.4-2~
- (optional=templinst)_ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_@Base 3.6.4-2~
- (optional=templinst|arch=amd64 arm64 x32)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_PKS5_@Base 3.5.5-4~
+ (optional=templinst)_ZSteqIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_@Base 3.6.5+20220909
+ (optional=templinst)_ZSteqIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EESA_@Base 3.6.5+20220909
  (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_S9_@Base 3.6.4-2~
- (optional=templinst|arch=amd64 arm64 x32)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_OS8_@Base 3.5.5-4~
- (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_RKS8_@Base 3.5.5-4~
- (optional=templinst|arch=amd64 arm64 armel armhf hppa x32)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EERKS8_SA_@Base 3.5.5-4~
+ (optional=templinst|arch=amd64 arm64 kfreebsd-amd64 x32)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_OS8_@Base 3.5.5-4~
  _ZTIN4Sass10AssignmentE@Base 3.5.5-4~
  _ZTIN4Sass10AtRootRuleE@Base 3.6.4-2~
  _ZTIN4Sass10Color_HSLAE@Base 3.6.4

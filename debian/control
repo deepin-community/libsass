@@ -7,10 +7,10 @@ Section: libs
 Priority: optional
 Build-Depends:
  autoconf-archive,
- d-shlibs (>= 0.50),
+ dh-sequence-pkgkde-symbolshelper,
+ d-shlibs,
  debhelper-compat (= 13),
- pkg-kde-tools,
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Vcs-Browser: https://salsa.debian.org/sass-team/libsass
 Vcs-Git: https://salsa.debian.org/sass-team/libsass.git
 Homepage: https://sass-lang.com/libsass

@@ -6,14 +6,15 @@ Source: https://github.com/sass/libsass
 
 Files: *
 Copyright:
-  2012-2016, the Sass Open Source Foundation
+  2012-2016  the Sass Open Source Foundation
 License: Expat
+Reference: LICENSE
 
 Files:
  src/utf8.h
  src/utf8/*
 Copyright:
-  2006-2016, Nemanja Trifunovic
+  2006-2016  Nemanja Trifunovic
 License: BSL-1.0
 Comment:
  Convenience code copy of <http://utfcpp.sourceforge.net/>.
@@ -22,14 +23,13 @@ Files:
  src/c99func.c
  src/json.*pp
 Copyright:
-  2011, Joseph A. Adams <joeyadams3.14159@gmail.com>
+  2011  Joseph A. Adams <joeyadams3.14159@gmail.com>
 License: Expat
 
 Files:
  src/b64/*
  src/cencode.c
-Copyright:
-  None (Public Domain)
+Copyright: None (Public Domain)
 License: public-domain
  This is part of the libb64 project,
  and has been placed in the public domain.
@@ -37,8 +37,7 @@ License: public-domain
 
 Files:
  src/MurmurHash2.hpp
-Copyright:
-  None (Public Domain)
+Copyright: None (Public Domain)
 License: public-domain
  MurmurHash2 was written by Austin Appleby,
  and is placed in the public domain.
@@ -58,7 +57,7 @@ Comment:
 Files:
  script/tap-driver
 Copyright:
-  2011-2013, Free Software Foundation, Inc
+  2011-2013  Free Software Foundation, Inc
 License-Grant:
  This program is free software;
  you can redistribute it and/or modify it
@@ -76,24 +75,24 @@ License-Reference: /usr/share/common-licenses/GPL-2
 Files:
  m4/m4-ax_cxx_compile_stdcxx_11.m4
 Copyright:
-  2008, Benjamin Kosnik <bkoz@redhat.com>
-  2014-2015, Google Inc.
-  2013, Roy Stogner <roystgnr@ices.utexas.edu>
-  2012, Zack Weinberg <zackw@panix.com>
+  2008       Benjamin Kosnik <bkoz@redhat.com>
+  2014-2015  Google Inc.
+  2013       Roy Stogner <roystgnr@ices.utexas.edu>
+  2012       Zack Weinberg <zackw@panix.com>
 License: FSFUL~Boost
 
 Files:
  debian/*
 Copyright:
-  2015-2021, Jonas Smedegaard <js@debian.org>
-  2020, Purism, SPC
+  2015-2022  Jonas Smedegaard <js@debian.org>
 License-Grant:
- This program is free software;
+ This packaging is free software:
  you can redistribute it and/or modify it
  under the terms of the GNU General Public License
  as published by the Free Software Foundation;
  either version 3, or (at your option) any later version.
 License: GPL-3+
+Reference: debian/copyright
 
 License: Expat
  Permission is hereby granted, free of charge,
@@ -152,4 +151,4 @@ License: FSFUL~Boost
  This file is offered as-is, without any warranty.
 
 License: GPL-3+
-License-Reference: /usr/share/common-licenses/GPL-3
+Reference: /usr/share/common-licenses/GPL-3

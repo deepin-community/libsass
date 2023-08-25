@@ -1,8 +1,72 @@
-libsass (3.6.5+20210718-1) UNRELEASED; urgency=medium
+libsass (3.6.5+20220909-3) unstable; urgency=medium
 
-  * update
+  * update symbols file (for all arches this time)
 
- -- Debian Sass team <pkg-sass-devel@lists.alioth.debian.org>  Mon, 06 Jun 2022 05:13:12 -0400
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 31 Jul 2023 15:44:09 +0200
+
+libsass (3.6.5+20220909-2) unstable; urgency=medium
+
+  * update symbols file;
+    closes: bug#1037736, #1042201,
+    thanks to Bo YU, Matthias Klose, and Lucas Nussbaum
+  * declare compliance with Debian Policy 4.6.2
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 30 Jul 2023 19:23:05 +0200
+
+libsass (3.6.5+20220909-1) unstable; urgency=medium
+
+  [ upstream ]
+  * new development snapshot
+
+  [ Jonas Smedegaard ]
+  * update symbols file;
+    closes: bug#1012989, thanks to Matthias Klose
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 12 Dec 2022 15:05:31 +0100
+
+libsass (3.6.5+20211226-2) experimental; urgency=medium
+
+  * declare compliance with Debian Policy 4.6.1
+  * build-depend on dh-sequence-pkgkde-symbolshelper
+    (not pkg-kde-tools)
+  * update copyright info: update coverage
+
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 27 Sep 2022 17:33:22 +0200
+
+libsass (3.6.5+20211226-1) unstable; urgency=medium
+
+  [ upstream ]
+  * development snapshot
+    + docs: Fix a few typos
+
+  [ Jonas Smedegaard ]
+  * tighten lintian overrides
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 02 Jan 2022 20:27:18 +0100
+
+libsass (3.6.5+20211111-2) unstable; urgency=medium
+
+  * update symbols file;
+    closes: bug#984208, thanks to Matthias Klose
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 17 Nov 2021 22:04:53 +0100
+
+libsass (3.6.5+20211111-1) experimental; urgency=medium
+
+  [ upstream ]
+  * development snapshot
+
+  [ Jonas Smedegaard ]
+  * simplify source helper script copyright-check
+  * update copyright info:
+    + use Reference field (not License-Reference);
+      tighten lintian overrides
+    + update coverage
+  * relax to build-depend unversioned on d-shlibs:
+    required version satisfied in all supported Debian releases
+  * relax symbols check when targeting experimental
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 17 Nov 2021 18:37:54 +0100
 
 libsass (3.6.5+20210718-1) unstable; urgency=medium
 

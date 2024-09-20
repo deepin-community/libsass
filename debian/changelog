@@ -1,3 +1,9 @@
+libsass (3.6.5+20220909-3deepin0) unstable; urgency=medium
+
+  * No source change upload against GCC 12.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Fri, 20 Sep 2024 12:11:34 +0800
+
 libsass (3.6.5+20220909-3) unstable; urgency=medium
 
   * update symbols file (for all arches this time)

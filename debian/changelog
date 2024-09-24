@@ -1,3 +1,9 @@
+libsass (3.6.5+20220909-3deepin1) unstable; urgency=medium
+
+  * d/libsass1.symbols: Update symbols file
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Tue, 24 Sep 2024 21:47:52 +0800
+
 libsass (3.6.5+20220909-3deepin0) unstable; urgency=medium
 
   * No source change upload against GCC 12.
